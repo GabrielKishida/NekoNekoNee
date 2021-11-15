@@ -5,7 +5,7 @@
 ## Autores
 
 Gabriel Yugo Nascimento Kishida @GabrielKishida
-Gustavo Azevedo Côrrea @guazco
+Gustavo Azevedo Corrêa @guazco
 
 ---
 
