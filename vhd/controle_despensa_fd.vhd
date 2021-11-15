@@ -122,7 +122,7 @@ BEGIN
         fim
     );
 
-    CONTROLE_SERVO : controle_servo PORT MAP(
+    CTRL_SERVO : controle_servo PORT MAP(
         clock => clock,
         reset => reset,
         posicao => posicao,
@@ -139,4 +139,6 @@ BEGIN
         D => tamanho_porcao,
         Q => s_tamanho_porcao_reg
     );
+
+    db_tamanho_porcao <= tamanho_porcao;
 END ARCHITECTURE;

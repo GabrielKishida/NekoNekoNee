@@ -7,7 +7,7 @@ ENTITY controle_despensa_uc IS
     PORT (
         clock : IN STD_LOGIC;
         reset : IN STD_LOGIC;
-        abre  : IN STD_LOGIC;
+        abre : IN STD_LOGIC;
         fecha : IN STD_LOGIC;
         zera : OUT STD_LOGIC;
         conta : OUT STD_LOGIC;
@@ -42,47 +42,41 @@ BEGIN
     END PROCESS;
 
     -- logica de proximo estado
-    PROCESS (sinal, tick, fim_sinal, Eatual, recebe_dado)
+    PROCESS (abre, fecha, Eatual)
     BEGIN
         CASE Eatual IS
-            
-        WHEN inicial => Eprox <= preparacao;
 
-        WHEN espera => IF (abre = '1') THEN
-        
-                    Eprox <= prepara;
-        
-                    ELSE
-        
-                    Eprox <= espera;
-        
-                    END IF;
-    
+            WHEN inicial => Eprox <= espera;
+
+            WHEN espera => IF (abre = '1') THEN
+                Eprox <= prepara;
+            ELSE
+                Eprox <= espera;
+        END IF;
+
         WHEN prepara => Eprox <= aberto;
 
         WHEN aberto => IF (fecha = '1') THEN
-        
-                    Eprox <= espera;
-        
-                    ELSE
-        
-                    Eprox <= aberto;
-        
-                    END IF;
 
+        Eprox <= espera;
 
+    ELSE
 
-        WHEN OTHERS => Eprox <= inicial;
+        Eprox <= aberto;
+
+    END IF;
+
+    WHEN OTHERS => Eprox <= inicial;
 
 END CASE;
 END PROCESS;
 
 -- logica de saida (Moore)
 WITH Eatual SELECT
-    zera <= '1' WHEN preparacao, '0' WHEN OTHERS;
+    zera <= '1' WHEN prepara, '0' WHEN OTHERS;
 
 WITH Eatual SELECT
-    enable_reg <= '1' WHEN preparacao, '0' WHEN OTHERS;
+    enable_reg <= '1' WHEN prepara, '0' WHEN OTHERS;
 
 WITH Eatual SELECT
     conta <= '1' WHEN aberto, '0' WHEN OTHERS;
@@ -92,10 +86,10 @@ WITH Eatual SELECT
     "000" WHEN OTHERS;
 
 WITH Eatual SELECT
-    db_estado <= "0001" WHEN inicial,
-    "0010" WHEN espera,
-    "0011" WHEN prepara,
-    "0100" WHEN aberto,
-    "0001" WHEN OTHERS;
+    db_estado <= "00" WHEN inicial,
+    "01" WHEN espera,
+    "10" WHEN prepara,
+    "11" WHEN aberto,
+    "00" WHEN OTHERS;
 
 END controle_despensa_uc_arch;

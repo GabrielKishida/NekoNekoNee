@@ -18,5 +18,5 @@ BEGIN
         D2 WHEN (SEL = "10") ELSE
         D1 WHEN (SEL = "01") ELSE
         D0 WHEN (SEL = "00") ELSE
-        (OTHERS => '1');
+        '1';
 END behav;

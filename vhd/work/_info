@@ -1,0 +1,908 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/gabri/workspace/LabDig2/experimento6/src
+Econtador_m
+Z0 w1635024132
+Z1 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/gabri/workspace/NekoNekoNee/vhd
+Z6 8C:/Users/gabri/workspace/NekoNekoNee/vhd/contador_m.vhd
+Z7 FC:/Users/gabri/workspace/NekoNekoNee/vhd/contador_m.vhd
+l0
+L24
+V=?JFUJKk2VSeHh[eMfG2B3
+!s100 h6VknzPN<1CEMg;cE3VcS1
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1636985611
+!i10b 1
+Z10 !s108 1636985611.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/contador_m.vhd|
+Z12 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/contador_m.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Acomportamental
+R1
+R2
+R3
+R4
+DEx4 work 10 contador_m 0 22 =?JFUJKk2VSeHh[eMfG2B3
+l37
+L35
+Vd_SZS^cc5UgmiUgkL<aKQ0
+!s100 ac[j]JCmg:QA=`_b;z_JW1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Econtrole_despensa
+Z15 w1636982565
+R2
+R3
+R4
+R5
+Z16 8C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa.vhd
+Z17 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa.vhd
+l0
+L5
+VCCKBeSamNh1E@_IW`H]_i2
+!s100 ^zQHa_D7n_I^`BDlY]Ma80
+R8
+32
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa.vhd|
+Z19 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa.vhd|
+!i113 1
+R13
+R14
+Artl
+R2
+R3
+R4
+DEx4 work 17 controle_despensa 0 22 CCKBeSamNh1E@_IW`H]_i2
+l63
+L19
+V4A0SoAYZ6WjZBSj5^=oz50
+!s100 9jV?kDdfJf__CXO;]ajXI2
+R8
+32
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Econtrole_despensa_fd
+Z20 w1636985594
+R1
+R2
+R3
+R4
+R5
+Z21 8C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_fd.vhd
+Z22 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_fd.vhd
+l0
+L6
+VNC7U90n1NFZcN<j_S1j7^3
+!s100 G@_fFF2efYmi6<4B<iiA23
+R8
+32
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_fd.vhd|
+Z24 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_fd.vhd|
+!i113 1
+R13
+R14
+Acontrole_despensa_fd_arch
+R1
+R2
+R3
+R4
+DEx4 work 20 controle_despensa_fd 0 22 NC7U90n1NFZcN<j_S1j7^3
+l70
+L23
+VjmJ1S;6K9FGPcX87@[hD;1
+!s100 b_Y@7l`FGKC67gl8__@mX3
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Econtrole_despensa_tb
+Z25 w1636985575
+R3
+R4
+R5
+Z26 8C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_tb.vhd
+Z27 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_tb.vhd
+l0
+L4
+V2?CjQYM4RFRe3<Jnk6WJ31
+!s100 =^]U2S1_WnLDDahSCUzKT3
+R8
+32
+R9
+!i10b 1
+R10
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_tb.vhd|
+Z29 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R3
+R4
+DEx4 work 20 controle_despensa_tb 0 22 2?CjQYM4RFRe3<Jnk6WJ31
+l36
+L7
+VNhgFU:zQm4ZX6XM;P;F8E3
+!s100 kXF3M^B:Kc8]8So]>W7`J3
+R8
+32
+R9
+!i10b 1
+R10
+R28
+R29
+!i113 1
+R13
+R14
+Econtrole_despensa_uc
+Z30 w1636985995
+R3
+R4
+R5
+Z31 8C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_uc.vhd
+Z32 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_uc.vhd
+l0
+L6
+VXzozJhQ_8[K8>QBUMWch_2
+!s100 [Cd?5annfBTfIe;i0;jQj1
+R8
+32
+Z33 !s110 1636986011
+!i10b 1
+Z34 !s108 1636986011.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_uc.vhd|
+Z36 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_uc.vhd|
+!i113 1
+R13
+R14
+Acontrole_despensa_uc_arch
+R3
+R4
+Z37 DEx4 work 20 controle_despensa_uc 0 22 XzozJhQ_8[K8>QBUMWch_2
+l32
+L20
+VG]j:UE4ZKTS=aH0h=Rk_h0
+!s100 kzNA=UHDRaejkTB<gOR691
+R8
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R13
+R14
+Econtrole_servo
+Z38 w1636816253
+R2
+R3
+R4
+R5
+Z39 8C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo.vhd
+Z40 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo.vhd
+l0
+L5
+VEV9=IJ<QmXPd31LJGE<YT3
+!s100 Vf?LkLY5LLDkl]R0lfFXC3
+R8
+32
+Z41 !s110 1636985612
+!i10b 1
+R10
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo.vhd|
+Z43 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo.vhd|
+!i113 1
+R13
+R14
+Artl
+R2
+R3
+R4
+DEx4 work 14 controle_servo 0 22 EV9=IJ<QmXPd31LJGE<YT3
+l23
+L15
+VG[7A^IeBk[;;G5z67g8O_0
+!s100 c7TIM_D^mi=o_]YKmm3^K3
+R8
+32
+R41
+!i10b 1
+R10
+R42
+R43
+!i113 1
+R13
+R14
+Econtrole_servo_tb
+Z44 w1635024326
+R3
+R4
+R5
+Z45 8C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo_tb.vhd
+Z46 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo_tb.vhd
+l0
+L4
+VJB[6z7XQ@o;ZSD<n4>:6N3
+!s100 ]Pc9]o6O7WL0?4Y]k49DE1
+R8
+32
+R41
+!i10b 1
+Z47 !s108 1636985612.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo_tb.vhd|
+Z49 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R3
+R4
+DEx4 work 17 controle_servo_tb 0 22 JB[6z7XQ@o;ZSD<n4>:6N3
+l30
+L7
+V[3=?lOdWgNJDS8IF>QKBe2
+!s100 Ee@MOll:1>=0XPZ3H;>7T1
+R8
+32
+R41
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R13
+R14
+Edeslocador_n
+R0
+R3
+R4
+R5
+Z50 8C:/Users/gabri/workspace/NekoNekoNee/vhd/deslocador_n.vhd
+Z51 FC:/Users/gabri/workspace/NekoNekoNee/vhd/deslocador_n.vhd
+l0
+L22
+V6lX5ljC2CU3mJZi]RNTA=0
+!s100 ?cz8GAOBiJNYXRA>8_<o@2
+R8
+32
+R41
+!i10b 1
+R47
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/deslocador_n.vhd|
+Z53 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/deslocador_n.vhd|
+!i113 1
+R13
+R14
+Adeslocador_n_arch
+R3
+R4
+DEx4 work 12 deslocador_n 0 22 6lX5ljC2CU3mJZi]RNTA=0
+l39
+L35
+VzDU?U;zAD4<N1NlBzZE`;2
+!s100 =0alUlUa2KWT57OkEdig:0
+R8
+32
+R41
+!i10b 1
+R47
+R52
+R53
+!i113 1
+R13
+R14
+Eedge_detector
+Z54 w1635024683
+R3
+R4
+R5
+Z55 8C:/Users/gabri/workspace/NekoNekoNee/vhd/edge_detector.vhd
+Z56 FC:/Users/gabri/workspace/NekoNekoNee/vhd/edge_detector.vhd
+l0
+L20
+VHlhzMHiWSjGSej[VJdfiQ1
+!s100 IL>P<]N@`F;S]1F1bNN]I3
+R8
+32
+R41
+!i10b 1
+R47
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/edge_detector.vhd|
+Z58 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/edge_detector.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 13 edge_detector 0 22 HlhzMHiWSjGSej[VJdfiQ1
+l29
+L27
+VcoBX@d2PY4=CBbzAS[mC21
+!s100 ejL8OKneb<0a>Tzb=6k3J2
+R8
+32
+R41
+!i10b 1
+R47
+R57
+R58
+!i113 1
+R13
+R14
+Ehexa7seg
+R0
+R3
+R4
+R5
+Z59 8C:/Users/gabri/workspace/NekoNekoNee/vhd/hexa7seg.vhd
+Z60 FC:/Users/gabri/workspace/NekoNekoNee/vhd/hexa7seg.vhd
+l0
+L22
+VDcEZ9MaC9:I]UU^aY`Dnd3
+!s100 PkijLd]1n2B[9ZRE92gHE3
+R8
+32
+R41
+!i10b 1
+R47
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/hexa7seg.vhd|
+Z62 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/hexa7seg.vhd|
+!i113 1
+R13
+R14
+Acomportamental
+R3
+R4
+DEx4 work 8 hexa7seg 0 22 DcEZ9MaC9:I]UU^aY`Dnd3
+l30
+L29
+Vlm>zk87DUO_Vmo1eLODf^3
+!s100 ?9SgY[JS3VNifPKV`JO<e0
+R8
+32
+R41
+!i10b 1
+R47
+R61
+R62
+!i113 1
+R13
+R14
+Emux_4x1_n
+Z63 w1636982438
+R3
+R4
+R5
+Z64 8C:/Users/gabri/workspace/NekoNekoNee/vhd/mux_4x1_n.vhd
+Z65 FC:/Users/gabri/workspace/NekoNekoNee/vhd/mux_4x1_n.vhd
+l0
+L4
+VW60]MG^cQe^k@@eaemLbQ3
+!s100 oc;kA`0HORI=YITD7BnPE1
+R8
+32
+R41
+!i10b 1
+R47
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/mux_4x1_n.vhd|
+Z67 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/mux_4x1_n.vhd|
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+DEx4 work 9 mux_4x1_n 0 22 W60]MG^cQe^k@@eaemLbQ3
+l16
+L15
+VYT7zA1Xz[999325MmLf;c0
+!s100 3G=F`jb_l8P2S@gbX8H>72
+R8
+32
+R41
+!i10b 1
+R47
+R66
+R67
+!i113 1
+R13
+R14
+Eregistrador_2bits
+Z68 w1636816472
+R3
+R4
+R5
+Z69 8C:/Users/gabri/workspace/NekoNekoNee/vhd/registrador_2bits.vhd
+Z70 FC:/Users/gabri/workspace/NekoNekoNee/vhd/registrador_2bits.vhd
+l0
+L4
+VNK2A0l37A1PEj0nc2AKZ11
+!s100 P8f4gFa^S2MA>Xd]fJUT_1
+R8
+32
+R41
+!i10b 1
+R47
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/registrador_2bits.vhd|
+Z72 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/registrador_2bits.vhd|
+!i113 1
+R13
+R14
+Aarch
+R3
+R4
+DEx4 work 17 registrador_2bits 0 22 NK2A0l37A1PEj0nc2AKZ11
+l16
+L14
+VF4k9R80ON[12_zJk6`g]F3
+!s100 fNP>K`DIl=83E68CWj;<10
+R8
+32
+R41
+!i10b 1
+R47
+R71
+R72
+!i113 1
+R13
+R14
+Erx_serial_8n2
+R0
+R1
+R2
+R3
+R4
+R5
+Z73 8C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2.vhd
+Z74 FC:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2.vhd
+l0
+L18
+VD^WnfB3=Wnf:UA?6GliC^0
+!s100 Ye7N;D=fjTMB>H40?`k?S0
+R8
+32
+R41
+!i10b 1
+R47
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2.vhd|
+Z76 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2.vhd|
+!i113 1
+R13
+R14
+Arx_serial_8n2_arch
+R1
+R2
+R3
+R4
+Z77 DEx4 work 13 rx_serial_8n2 0 22 D^WnfB3=Wnf:UA?6GliC^0
+l70
+L33
+VJe3O6g7HdD@P[Q7JFo0b70
+!s100 P5^8Hl99Ze649OYN?^h`A3
+R8
+32
+R41
+!i10b 1
+R47
+R75
+R76
+!i113 1
+R13
+R14
+Erx_serial_8n2_fd
+R0
+R1
+R2
+R3
+R4
+R5
+Z78 8C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd
+Z79 FC:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd
+l0
+L20
+VnQBA`<a2Qk5=FzEgKETc10
+!s100 ]KK_:^RaR`z2YQPemVKV61
+R8
+32
+R41
+!i10b 1
+R47
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd|
+Z81 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd|
+!i113 1
+R13
+R14
+Arx_serial_8n2_fd_arch
+R1
+R2
+R3
+R4
+DEx4 work 16 rx_serial_8n2_fd 0 22 nQBA`<a2Qk5=FzEgKETc10
+l74
+L32
+V4mXYWoea2gJVe2m]8J?@N2
+!s100 ;XQdWTdTJJbl8Me;TjSmR2
+R8
+32
+R41
+!i10b 1
+R47
+R80
+R81
+!i113 1
+R13
+R14
+Erx_serial_tb
+R44
+R2
+R3
+R4
+R5
+Z82 8C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_tb.vhd
+Z83 FC:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_tb.vhd
+l0
+L20
+VN=ET<MDOY;RKfAmV9mY]k0
+!s100 ^UFXlok4neO9zCRn;eERJ1
+R8
+32
+Z84 !s110 1636985613
+!i10b 1
+R47
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_tb.vhd|
+Z86 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R1
+R77
+R2
+R3
+R4
+DEx4 work 12 rx_serial_tb 0 22 N=ET<MDOY;RKfAmV9mY]k0
+l89
+L23
+Vhdh?[Z]mEQ[b^chPcRD3^1
+!s100 _]X<nk0YQ?FF29ZHH]Y:a3
+R8
+32
+R84
+!i10b 1
+R47
+R85
+R86
+!i113 1
+R13
+R14
+Erx_serial_tick_uc
+R0
+R3
+R4
+R5
+Z87 8C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd
+Z88 FC:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd
+l0
+L20
+Vlkf4^c0Gz0LQB024LW2C;0
+!s100 i5DMSkh73YfD40d8FN8?o2
+R8
+32
+R41
+!i10b 1
+R47
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd|
+Z90 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd|
+!i113 1
+R13
+R14
+Arx_serial_tick_uc_arch
+R3
+R4
+DEx4 work 17 rx_serial_tick_uc 0 22 lkf4^c0Gz0LQB024LW2C;0
+l55
+L40
+VK=Hg0Q[4c6Hh?oPEoC`;Y2
+!s100 oP5c74Q9THL6jEjP@Id:h0
+R8
+32
+R41
+!i10b 1
+R47
+R89
+R90
+!i113 1
+R13
+R14
+Etx_serial_8n2
+R0
+R1
+R2
+R3
+R4
+R5
+Z91 8C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2.vhd
+Z92 FC:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2.vhd
+l0
+L6
+VU>[XB0HU>:6Cz<8mSImiB0
+!s100 W`BIG>g:XIYC2c7Ci]X651
+R8
+32
+R84
+!i10b 1
+Z93 !s108 1636985613.000000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2.vhd|
+Z95 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2.vhd|
+!i113 1
+R13
+R14
+Atx_serial_8n2_arch
+R1
+R2
+R3
+R4
+DEx4 work 13 tx_serial_8n2 0 22 U>[XB0HU>:6Cz<8mSImiB0
+l56
+L20
+VPE>Bjg09e4X4F4T7@?hF03
+!s100 3TH=7E<47<8M:7Jk:oQia2
+R8
+32
+R84
+!i10b 1
+R93
+R94
+R95
+!i113 1
+R13
+R14
+Etx_serial_8n2_fd
+R0
+R1
+R2
+R3
+R4
+R5
+Z96 8C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
+Z97 FC:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
+l0
+L22
+ViT7ZX]0P1:DlP]aahX62W2
+!s100 8<k5DmCO[DMQQ>_X;G3840
+R8
+32
+R84
+!i10b 1
+R93
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd|
+Z99 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd|
+!i113 1
+R13
+R14
+Atx_serial_8n2_fd_arch
+R1
+R2
+R3
+R4
+DEx4 work 16 tx_serial_8n2_fd 0 22 iT7ZX]0P1:DlP]aahX62W2
+l60
+L32
+V`SSAn=I`:@5N6VkIl9<DE1
+!s100 [IJKa_]RT7m1iM?CU0L6X1
+R8
+32
+R84
+!i10b 1
+R93
+R98
+R99
+!i113 1
+R13
+R14
+Etx_serial_tb
+R44
+R2
+R3
+R4
+R5
+Z100 8C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_tb.vhd
+Z101 FC:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_tb.vhd
+l0
+L19
+Vlk@R3OL?6BSEfAH=lWUgH2
+!s100 5e48NkQkoKhZLm;kF9;II0
+R8
+32
+R84
+!i10b 1
+R93
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_tb.vhd|
+Z103 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R2
+R3
+R4
+DEx4 work 12 tx_serial_tb 0 22 lk@R3OL?6BSEfAH=lWUgH2
+l57
+L22
+V^<1R6HQ:^ll[:z7XIamf60
+!s100 il3W>6mn@9j39[TAY[lJi3
+R8
+32
+R84
+!i10b 1
+R93
+R102
+R103
+!i113 1
+R13
+R14
+Etx_serial_tick_uc
+R0
+R3
+R4
+R5
+Z104 8C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
+Z105 FC:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
+l0
+L21
+VTUzi;P^U6=`b7ef3oKT1P3
+!s100 8i2PjSek?RhjX5:2_Fdie0
+R8
+32
+R84
+!i10b 1
+R93
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_tick_uc.vhd|
+Z107 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_tick_uc.vhd|
+!i113 1
+R13
+R14
+Atx_serial_tick_uc_arch
+R3
+R4
+DEx4 work 17 tx_serial_tick_uc 0 22 TUzi;P^U6=`b7ef3oKT1P3
+l35
+L29
+VO@I`il=3<2JI_KF@iAORm2
+!s100 2HoO5DlN6mIKhE?zR@Ydc3
+R8
+32
+R84
+!i10b 1
+R93
+R106
+R107
+!i113 1
+R13
+R14
+Euart_8n2
+R0
+R1
+R2
+R3
+R4
+R5
+Z108 8C:/Users/gabri/workspace/NekoNekoNee/vhd/uart_8N2.vhd
+Z109 FC:/Users/gabri/workspace/NekoNekoNee/vhd/uart_8N2.vhd
+l0
+L18
+VHQZm`_kFk?<O=ZZBj1BZQ3
+!s100 7D6L]`LR`o>7UQn8mI@Nm1
+R8
+32
+R84
+!i10b 1
+R93
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/uart_8N2.vhd|
+Z111 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/uart_8N2.vhd|
+!i113 1
+R13
+R14
+Auart_8n2_arch
+R1
+R2
+R3
+R4
+DEx4 work 8 uart_8n2 0 22 HQZm`_kFk?<O=ZZBj1BZQ3
+l74
+L41
+VOEP_6I4L?A<FgTPkh?1==0
+!s100 62PfEJihIBTUG=5:`RQjn2
+R8
+32
+R84
+!i10b 1
+R93
+R110
+R111
+!i113 1
+R13
+R14
+Euart_tb
+R44
+R2
+R3
+R4
+R5
+Z112 8C:/Users/gabri/workspace/NekoNekoNee/vhd/uart_tb.vhd
+Z113 FC:/Users/gabri/workspace/NekoNekoNee/vhd/uart_tb.vhd
+l0
+L19
+VGPSfa4a]j6]JzU`L2jfMA0
+!s100 XelT9<ZlCQ[mG?7VYPYYV2
+R8
+32
+R9
+!i10b 1
+R10
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/uart_tb.vhd|
+Z115 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/uart_tb.vhd|
+!i113 1
+R13
+R14
+Atb
+R2
+R3
+R4
+DEx4 work 7 uart_tb 0 22 GPSfa4a]j6]JzU`L2jfMA0
+l68
+L22
+VR2b^akFA3DHW]HA9KbaD:0
+!s100 kL?Z]^Nb@h4G[[7=CQ>SY2
+R8
+32
+R9
+!i10b 1
+R10
+R114
+R115
+!i113 1
+R13
+R14
