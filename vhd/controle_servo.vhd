@@ -10,7 +10,6 @@ ENTITY controle_servo IS
     db_posicao : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
     pwm : OUT STD_LOGIC;
     db_pwm : OUT STD_LOGIC);
-
 END controle_servo;
 
 ARCHITECTURE rtl OF controle_servo IS
