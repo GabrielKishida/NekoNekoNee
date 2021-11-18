@@ -13,6 +13,7 @@ ENTITY controle_despensa_uc IS
         conta : OUT STD_LOGIC;
         enable_reg : OUT STD_LOGIC;
         posicao : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
+		  db_aberto : OUT STD_LOGIC;
         db_estado : OUT STD_LOGIC_VECTOR (1 DOWNTO 0)
     );
 END ENTITY;
@@ -28,6 +29,8 @@ ARCHITECTURE controle_despensa_uc_arch OF controle_despensa_uc IS
 
     SIGNAL Eatual : tipo_estado; -- estado atual
     SIGNAL Eprox : tipo_estado; -- proximo estado
+	 
+	 SIGNAL s_aberto : std_logic;
 
 BEGIN
 
@@ -79,7 +82,7 @@ WITH Eatual SELECT
     enable_reg <= '1' WHEN prepara, '0' WHEN OTHERS;
 
 WITH Eatual SELECT
-    conta <= '1' WHEN aberto, '0' WHEN OTHERS;
+    s_aberto <= '1' WHEN aberto, '0' WHEN OTHERS;
 
 WITH Eatual SELECT
     posicao <= "111" WHEN aberto,
@@ -91,5 +94,8 @@ WITH Eatual SELECT
     "10" WHEN prepara,
     "11" WHEN aberto,
     "00" WHEN OTHERS;
+	 
+conta <= s_aberto;
+db_aberto <= s_aberto;
 
 END controle_despensa_uc_arch;

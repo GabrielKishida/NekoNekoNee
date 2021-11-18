@@ -14,6 +14,7 @@ ARCHITECTURE tb OF controle_despensa_tb IS
             tamanho_porcao : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
             pwm : OUT STD_LOGIC;
             db_pwm : OUT STD_LOGIC;
+				db_aberto: OUT STD_LOGIC;
             db_posicao : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
             db_tamanho_porcao : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
             db_estado : OUT STD_LOGIC_VECTOR (1 DOWNTO 0)
@@ -25,6 +26,7 @@ ARCHITECTURE tb OF controle_despensa_tb IS
     SIGNAL abre_in : STD_LOGIC := '0';
     SIGNAL tamanho_porcao_in : STD_LOGIC_VECTOR (1 DOWNTO 0) := "00";
     SIGNAL pwm_out : STD_LOGIC;
+	 SIGNAL db_aberto_out : STD_LOGIC;
     SIGNAL db_pwm_out : STD_LOGIC;
     SIGNAL db_posicao_out : STD_LOGIC_VECTOR(2 DOWNTO 0);
     SIGNAL db_tamanho_porcao_out : STD_LOGIC_VECTOR (1 DOWNTO 0) := "00";
@@ -44,6 +46,7 @@ BEGIN
         tamanho_porcao => tamanho_porcao_in,
         pwm => pwm_out,
         db_pwm => db_pwm_out,
+		  db_aberto => db_aberto_out,
         db_posicao => db_posicao_out,
         db_tamanho_porcao => db_tamanho_porcao_out,
         db_estado => db_estado_out
