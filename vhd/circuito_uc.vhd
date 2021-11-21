@@ -129,7 +129,7 @@ BEGIN
 	 
 	 -- contador stand
 	 CONTADOR_STAND : contador_m GENERIC MAP(
-        M => 10) PORT MAP (
+        M => 550000000) PORT MAP (
         clock,
         reset,
         s_zera_stand, -- s_reset_cont_final, 
