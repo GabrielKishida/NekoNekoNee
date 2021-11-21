@@ -123,8 +123,9 @@ BEGIN
         s_zera_confirma, -- s_reset_cont_final, 
         s_conta_confirma, 
         OPEN,
-        OPEN, -- s_reset_cont,
-        s_confirma
+        s_confirma,
+		  OPEN
+        
     );
 	 
 	 -- contador stand
@@ -135,8 +136,8 @@ BEGIN
         s_zera_stand, -- s_reset_cont_final, 
         s_conta_stand,  
         OPEN,
-        OPEN, -- s_reset_cont,
-        s_fim_stand
+		  s_fim_stand,
+        OPEN
     );
 	
 END ARCHITECTURE;
