@@ -54,7 +54,7 @@ BEGIN
 	END PROCESS;
 
 	-- logica de proximo estado
-	PROCESS (fim_stand, confirma, objeto, pronto, disponivel, aberto, Eatual)
+	PROCESS (clock, fim_stand, confirma, objeto, pronto, disponivel, aberto, Eatual)
 	BEGIN
 		CASE Eatual IS
 
@@ -104,14 +104,19 @@ BEGIN
 				END IF;
 
 				--ABRE DESPENSA
-			WHEN abre_despensa => Eprox <= aguarda_fechar;
+			WHEN abre_despensa =>
+				IF (aberto = '1') THEN
+					Eprox <= aguarda_fechar;
+				ELSE
+					Eprox <= abre_despensa;
+				END IF;
 
 				--APRESENTA INDISPONIVEL
 			WHEN apresenta_indisponivel => Eprox <= standby;
 
 				--AGUARDA FECHAR
 			WHEN aguarda_fechar =>
-				IF falling_edge(aberto) THEN
+				IF (aberto = '0') THEN
 					Eprox <= standby;
 				ELSE
 					Eprox <= aguarda_fechar;
