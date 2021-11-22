@@ -10,7 +10,7 @@ ENTITY controle_despensa IS
         tamanho_porcao : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
         pwm : OUT STD_LOGIC;
         db_pwm : OUT STD_LOGIC;
-		  db_aberto : OUT STD_LOGIC;
+        aberto : OUT STD_LOGIC;
         db_posicao : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
         db_tamanho_porcao : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
         db_estado : OUT STD_LOGIC_VECTOR (1 DOWNTO 0)
@@ -35,7 +35,7 @@ ARCHITECTURE rtl OF controle_despensa IS
         conta : OUT STD_LOGIC;
         enable_reg : OUT STD_LOGIC;
         posicao : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
-		  db_aberto : OUT STD_LOGIC;
+        is_aberto : OUT STD_LOGIC;
         db_estado : OUT STD_LOGIC_VECTOR (1 DOWNTO 0)
         );
     END COMPONENT;
@@ -81,7 +81,7 @@ BEGIN
         s_conta,
         s_enable_reg,
         s_posicao,
-		  db_aberto,
+        aberto,
         db_estado
     );
 

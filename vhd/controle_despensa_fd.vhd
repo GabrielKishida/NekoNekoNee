@@ -70,7 +70,7 @@ ARCHITECTURE controle_despensa_fd_arch OF controle_despensa_fd IS
 BEGIN
 
     CONTADOR_BABY : contador_m GENERIC MAP(
-        M => 50000000) PORT MAP (
+        M => 500000) PORT MAP (
         clock,
         reset,
         zera,
@@ -81,7 +81,7 @@ BEGIN
     );
 
     CONTADOR_SMALL : contador_m GENERIC MAP(
-        M => 75000000) PORT MAP (
+        M => 750000) PORT MAP (
         clock,
         reset,
         zera,
@@ -92,7 +92,7 @@ BEGIN
     );
 
     CONTADOR_MEDIUM : contador_m GENERIC MAP(
-        M => 100000000) PORT MAP (
+        M => 1000000) PORT MAP (
         clock,
         reset,
         zera,
@@ -103,7 +103,7 @@ BEGIN
     );
 
     CONTADOR_BIG : contador_m GENERIC MAP(
-        M => 150000000) PORT MAP (
+        M => 1500000) PORT MAP (
         clock,
         reset,
         zera,
