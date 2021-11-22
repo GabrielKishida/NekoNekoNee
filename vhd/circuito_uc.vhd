@@ -11,8 +11,13 @@ ENTITY circuito_uc IS
         reset : IN STD_LOGIC;
 		  echo : IN STD_LOGIC;
 		  disponivel : IN STD_LOGIC;
-		  trigger : OUT STD_LOGIC; 
+		  fechado : IN STD_LOGIC;
+		  trigger : OUT STD_LOGIC;
+		  indisponivel : OUT STD_LOGIC;
+		  abre : OUT STD_LOGIC;
+		  db_medida : OUT STD_LOGIC_VECTOR(11 DOWNTO 0);
 		  db_estado_uc : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+		  db_fechado : OUT STD_LOGIC;
 		  db_estado_interface: OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
     );
 END ENTITY;
@@ -28,11 +33,16 @@ ARCHITECTURE circuito_uc_arch OF circuito_uc IS
 		  confirma : IN STD_LOGIC;
 		  objeto : IN STD_LOGIC;
 		  disponivel : IN STD_LOGIC;
+		  pronto : IN STD_LOGIC;
+		  fechado : IN STD_LOGIC;
         zera_stand : OUT STD_LOGIC;
 		  zera_confirma : OUT STD_LOGIC;
 		  conta_stand : OUT STD_LOGIC;
 		  conta_confirma : OUT STD_LOGIC;
 		  mede : OUT STD_LOGIC;
+		  indisponivel : OUT STD_LOGIC;
+		  abre : OUT STD_LOGIC;
+		  db_fechado : OUT STD_LOGIC;
         db_estado : OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
     );
 	END COMPONENT;
@@ -70,7 +80,7 @@ ARCHITECTURE circuito_uc_arch OF circuito_uc IS
 	);
 	END COMPONENT;
 
-	SIGNAL s_fim_stand, s_confirma, s_objeto : STD_LOGIC;
+	SIGNAL s_fim_stand, s_confirma, s_objeto, s_indisponivel : STD_LOGIC;
 	SIGNAL s_zera_stand, s_zera_confirma, s_pronto : STD_LOGIC;
 	SIGNAL s_conta_stand, s_conta_confirma, s_mede, s_mede_disponivel : STD_LOGIC;
 	SIGNAL s_medida : STD_LOGIC_VECTOR (11 DOWNTO 0);
@@ -87,11 +97,16 @@ BEGIN
 	  s_confirma,
 	  s_objeto,
 	  disponivel,
+	  s_pronto,
+	  fechado,
 	  s_zera_stand,
 	  s_zera_confirma,
 	  s_conta_stand,
 	  s_conta_confirma,
 	  s_mede,
+	  s_indisponivel,
+	  abre,
+	  db_fechado,
 	  db_estado_uc
 	);
 
@@ -130,7 +145,7 @@ BEGIN
 	 
 	 -- contador stand
 	 CONTADOR_STAND : contador_m GENERIC MAP(
-        M => 550000000) PORT MAP (
+        M => 250) PORT MAP (
         clock,
         reset,
         s_zera_stand, -- s_reset_cont_final, 
@@ -139,5 +154,8 @@ BEGIN
 		  s_fim_stand,
         OPEN
     );
+	 
+	 db_medida <= s_medida;
+	 indisponivel <= s_indisponivel;
 	
 END ARCHITECTURE;
