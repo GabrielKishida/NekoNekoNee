@@ -68,10 +68,17 @@ ARCHITECTURE neko_neko_nee_arch OF neko_neko_nee IS
 			sseg : OUT STD_LOGIC_VECTOR(6 DOWNTO 0)
 		);
 	END COMPONENT;
+	
+	COMPONENT  pulse_generator is
+    port ( clk         : in   std_logic;
+           signal_in   : in   std_logic;
+           output      : out  std_logic
+    );
+	end component;
 
 	SIGNAL s_medida : STD_LOGIC_VECTOR (11 DOWNTO 0);
 	SIGNAL s_estado_uc, s_estado_interface : STD_LOGIC_VECTOR (3 DOWNTO 0);
-	SIGNAL s_aberto, s_abre : STD_LOGIC;
+	SIGNAL s_aberto, s_abre, s_indisponivel: STD_LOGIC;
 
 BEGIN
 
@@ -98,7 +105,7 @@ BEGIN
 		disponivel => disponivel,
 		aberto => s_aberto,
 		trigger => trigger,
-		indisponivel => indisponivel,
+		indisponivel => s_indisponivel,
 		abre => s_abre,
 		medida => s_medida,
 		db_estado_uc => s_estado_uc,
@@ -134,6 +141,13 @@ BEGIN
 		hexa => s_estado_interface,
 		sseg => db_estado_interface_sseg
 	);
+	
+	INDISPONIVEL_PULSE :  pulse_generator 
+    port map (
+		clk => clock,
+      signal_in => s_indisponivel,
+      output => indisponivel
+    );
 
 	db_aberto <= s_aberto;
 	db_medida <= s_medida;
