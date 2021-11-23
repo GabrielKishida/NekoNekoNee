@@ -1,0 +1,463 @@
+# Compile of alerta_proximidade.vhd was successful.
+# Compile of circuito_uc.vhd was successful.
+# Compile of circuito_uc_tb.vhd was successful.
+# Compile of contador_bcd_4digitos.vhd was successful.
+# Compile of contador_divisor.vhd was successful.
+# Compile of contador_m.vhd was successful.
+# Compile of controle_despensa.vhd was successful.
+# Compile of controle_despensa_fd.vhd was successful.
+# Compile of controle_despensa_tb.vhd was successful.
+# Compile of controle_despensa_uc.vhd was successful.
+# Compile of controle_servo.vhd was successful.
+# Compile of controle_servo_tb.vhd was successful.
+# Compile of deslocador_n.vhd was successful.
+# Compile of edge_detector.vhd was successful.
+# Compile of gerador_pulso.vhd was successful.
+# Compile of hexa7seg.vhd was successful.
+# Compile of interface_hcsr04.vhd was successful.
+# Compile of interface_hcsr04_fd.vhd was successful.
+# Compile of interface_hcsr04_uc.vhd was successful.
+# Compile of medidor_largura.vhd was successful.
+# Compile of mux_4x1_n.vhd was successful.
+# Compile of neko_uc.vhd was successful.
+# Compile of registrador_2bits.vhd was successful.
+# Compile of registrador_n.vhd was successful.
+# Compile of rx_serial_8N2.vhd was successful.
+# Compile of rx_serial_8N2_fd.vhd was successful.
+# Compile of rx_serial_8N2_tick_uc.vhd was successful.
+# Compile of rx_serial_tb.vhd was successful.
+# Compile of tx_serial_8N2.vhd was successful.
+# Compile of tx_serial_8N2_fd.vhd was successful.
+# Compile of tx_serial_tb.vhd was successful.
+# Compile of tx_serial_tick_uc.vhd was successful.
+# Compile of uart_8N2.vhd was successful.
+# Compile of uart_tb.vhd was successful.
+# 34 compiles, 0 failed with no errors.
+vsim -gui work.circuito_uc_tb
+# vsim -gui work.circuito_uc_tb 
+# Start time: 19:38:26 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.circuito_uc_tb(tb)
+# Loading ieee.math_real(body)
+# Loading work.circuito_uc(circuito_uc_arch)
+# Loading work.neko_uc(neko_uc_arch)
+# Loading work.interface_hcsr04(interface_hcsr04_arch)
+# Loading work.interface_hcsr04_uc(interface_hcsr04_uc_arch)
+# Loading work.interface_hcsr04_fd(arch)
+# Loading work.medidor_largura(medidor_arch)
+# Loading work.contador_divisor(comportamental)
+# Loading work.contador_bcd_4digitos(comportamental)
+# Loading work.registrador_n(registrador_n)
+# Loading work.gerador_pulso(fsm_arch)
+# Loading work.alerta_proximidade(behav)
+# Loading work.contador_m(comportamental)
+add wave -position insertpoint  \
+sim:/circuito_uc_tb/clock_in \
+sim:/circuito_uc_tb/reset_in \
+sim:/circuito_uc_tb/echo_in \
+sim:/circuito_uc_tb/disponivel_in \
+sim:/circuito_uc_tb/trigger_out \
+sim:/circuito_uc_tb/indisponivel_out \
+sim:/circuito_uc_tb/db_medida_out \
+sim:/circuito_uc_tb/db_estado_uc_out \
+sim:/circuito_uc_tb/db_estado_interface_out \
+sim:/circuito_uc_tb/keep_simulating \
+sim:/circuito_uc_tb/clockPeriod
+run -all
+# ** Note: Inicio da simulacao
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb/dut/INTER/U2_FD/CONTAGEM/CONTADOR_FINAL
+# Break key hit
+# Simulation stop requested.
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Note: Inicio da simulacao
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb/dut/INTER/U2_FD/CONTAGEM/CONTADOR_FINAL
+# Compile of alerta_proximidade.vhd was successful.
+# Compile of circuito_uc.vhd was successful.
+# Compile of circuito_uc_tb.vhd was successful.
+# Compile of contador_bcd_4digitos.vhd was successful.
+# Compile of contador_divisor.vhd was successful.
+# Compile of contador_m.vhd was successful.
+# Compile of controle_despensa.vhd was successful.
+# Compile of controle_despensa_fd.vhd was successful.
+# Compile of controle_despensa_tb.vhd was successful.
+# Compile of controle_despensa_uc.vhd was successful.
+# Compile of controle_servo.vhd was successful.
+# Compile of controle_servo_tb.vhd was successful.
+# Compile of deslocador_n.vhd was successful.
+# Compile of edge_detector.vhd was successful.
+# Compile of gerador_pulso.vhd was successful.
+# Compile of hexa7seg.vhd was successful.
+# Compile of interface_hcsr04.vhd was successful.
+# Compile of interface_hcsr04_fd.vhd was successful.
+# Compile of interface_hcsr04_uc.vhd was successful.
+# Compile of medidor_largura.vhd was successful.
+# Compile of mux_4x1_n.vhd was successful.
+# Compile of neko_uc.vhd was successful.
+# Compile of registrador_2bits.vhd was successful.
+# Compile of registrador_n.vhd was successful.
+# Compile of rx_serial_8N2.vhd was successful.
+# Compile of rx_serial_8N2_fd.vhd was successful.
+# Compile of rx_serial_8N2_tick_uc.vhd was successful.
+# Compile of rx_serial_tb.vhd was successful.
+# Compile of tx_serial_8N2.vhd was successful.
+# Compile of tx_serial_8N2_fd.vhd was successful.
+# Compile of tx_serial_tb.vhd was successful.
+# Compile of tx_serial_tick_uc.vhd was successful.
+# Compile of uart_8N2.vhd was successful.
+# Compile of uart_tb.vhd was successful.
+# 34 compiles, 0 failed with no errors.
+# Break key hit
+# Break in Process line__39 at C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd line 39
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.circuito_uc_tb(tb)
+# Loading work.circuito_uc(circuito_uc_arch)
+# Loading work.neko_uc(neko_uc_arch)
+# Loading work.interface_hcsr04(interface_hcsr04_arch)
+# Loading work.interface_hcsr04_uc(interface_hcsr04_uc_arch)
+# Loading work.interface_hcsr04_fd(arch)
+# Loading work.medidor_largura(medidor_arch)
+# Loading work.contador_divisor(comportamental)
+# Loading work.contador_bcd_4digitos(comportamental)
+# Loading work.registrador_n(registrador_n)
+# Loading work.gerador_pulso(fsm_arch)
+# Loading work.alerta_proximidade(behav)
+# Loading work.contador_m(comportamental)
+run -all
+# ** Note: Inicio da simulacao
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb/dut/INTER/U2_FD/CONTAGEM/CONTADOR_FINAL
+# Compile of alerta_proximidade.vhd was successful.
+# Compile of circuito_uc.vhd was successful.
+# Compile of circuito_uc_tb.vhd was successful.
+# Compile of contador_bcd_4digitos.vhd was successful.
+# Compile of contador_divisor.vhd was successful.
+# Compile of contador_m.vhd was successful.
+# Compile of controle_despensa.vhd was successful.
+# Compile of controle_despensa_fd.vhd was successful.
+# Compile of controle_despensa_tb.vhd was successful.
+# Compile of controle_despensa_uc.vhd was successful.
+# Compile of controle_servo.vhd was successful.
+# Compile of controle_servo_tb.vhd was successful.
+# Compile of deslocador_n.vhd was successful.
+# Compile of edge_detector.vhd was successful.
+# Compile of gerador_pulso.vhd was successful.
+# Compile of hexa7seg.vhd was successful.
+# Compile of interface_hcsr04.vhd was successful.
+# Compile of interface_hcsr04_fd.vhd was successful.
+# Compile of interface_hcsr04_uc.vhd was successful.
+# Compile of medidor_largura.vhd was successful.
+# Compile of mux_4x1_n.vhd was successful.
+# Compile of neko_uc.vhd was successful.
+# Compile of registrador_2bits.vhd was successful.
+# Compile of registrador_n.vhd was successful.
+# Compile of rx_serial_8N2.vhd was successful.
+# Compile of rx_serial_8N2_fd.vhd was successful.
+# Compile of rx_serial_8N2_tick_uc.vhd was successful.
+# Compile of rx_serial_tb.vhd was successful.
+# Compile of tx_serial_8N2.vhd was successful.
+# Compile of tx_serial_8N2_fd.vhd was successful.
+# Compile of tx_serial_tb.vhd was successful.
+# Compile of tx_serial_tick_uc.vhd was successful.
+# Compile of uart_8N2.vhd was successful.
+# Compile of uart_tb.vhd was successful.
+# 34 compiles, 0 failed with no errors.
+# Break key hit
+# Break in Process line__39 at C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd line 39
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.circuito_uc_tb(tb)
+# Loading work.circuito_uc(circuito_uc_arch)
+# Loading work.neko_uc(neko_uc_arch)
+# Loading work.interface_hcsr04(interface_hcsr04_arch)
+# Loading work.interface_hcsr04_uc(interface_hcsr04_uc_arch)
+# Loading work.interface_hcsr04_fd(arch)
+# Loading work.medidor_largura(medidor_arch)
+# Loading work.contador_divisor(comportamental)
+# Loading work.contador_bcd_4digitos(comportamental)
+# Loading work.registrador_n(registrador_n)
+# Loading work.gerador_pulso(fsm_arch)
+# Loading work.alerta_proximidade(behav)
+# Loading work.contador_m(comportamental)
+run -all
+# ** Note: Inicio da simulacao
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb/dut/INTER/U2_FD/CONTAGEM/CONTADOR_FINAL
+# Compile of alerta_proximidade.vhd was successful.
+# Compile of circuito_uc.vhd was successful.
+# Compile of circuito_uc_tb.vhd was successful.
+# Compile of contador_bcd_4digitos.vhd was successful.
+# Compile of contador_divisor.vhd was successful.
+# Compile of contador_m.vhd was successful.
+# Compile of controle_despensa.vhd was successful.
+# Compile of controle_despensa_fd.vhd was successful.
+# Compile of controle_despensa_tb.vhd was successful.
+# Compile of controle_despensa_uc.vhd was successful.
+# Compile of controle_servo.vhd was successful.
+# Compile of controle_servo_tb.vhd was successful.
+# Compile of deslocador_n.vhd was successful.
+# Compile of edge_detector.vhd was successful.
+# Compile of gerador_pulso.vhd was successful.
+# Compile of hexa7seg.vhd was successful.
+# Compile of interface_hcsr04.vhd was successful.
+# Compile of interface_hcsr04_fd.vhd was successful.
+# Compile of interface_hcsr04_uc.vhd was successful.
+# Compile of medidor_largura.vhd was successful.
+# Compile of mux_4x1_n.vhd was successful.
+# Compile of neko_uc.vhd was successful.
+# Compile of registrador_2bits.vhd was successful.
+# Compile of registrador_n.vhd was successful.
+# Compile of rx_serial_8N2.vhd was successful.
+# Compile of rx_serial_8N2_fd.vhd was successful.
+# Compile of rx_serial_8N2_tick_uc.vhd was successful.
+# Compile of rx_serial_tb.vhd was successful.
+# Compile of tx_serial_8N2.vhd was successful.
+# Compile of tx_serial_8N2_fd.vhd was successful.
+# Compile of tx_serial_tb.vhd was successful.
+# Compile of tx_serial_tick_uc.vhd was successful.
+# Compile of uart_8N2.vhd was successful.
+# Compile of uart_tb.vhd was successful.
+# 34 compiles, 0 failed with no errors.
+# Break key hit
+# Simulation stop requested.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.circuito_uc_tb(tb)
+# Loading work.circuito_uc(circuito_uc_arch)
+# Loading work.neko_uc(neko_uc_arch)
+# Loading work.interface_hcsr04(interface_hcsr04_arch)
+# Loading work.interface_hcsr04_uc(interface_hcsr04_uc_arch)
+# Loading work.interface_hcsr04_fd(arch)
+# Loading work.medidor_largura(medidor_arch)
+# Loading work.contador_divisor(comportamental)
+# Loading work.contador_bcd_4digitos(comportamental)
+# Loading work.registrador_n(registrador_n)
+# Loading work.gerador_pulso(fsm_arch)
+# Loading work.alerta_proximidade(behav)
+# Loading work.contador_m(comportamental)
+run -all
+# ** Note: Inicio da simulacao
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb/dut/INTER/U2_FD/CONTAGEM/CONTADOR_FINAL
+# Compile of alerta_proximidade.vhd was successful.
+# Compile of circuito_uc.vhd was successful.
+# Compile of circuito_uc_tb.vhd was successful.
+# Compile of contador_bcd_4digitos.vhd was successful.
+# Compile of contador_divisor.vhd was successful.
+# Compile of contador_m.vhd was successful.
+# Compile of controle_despensa.vhd was successful.
+# Compile of controle_despensa_fd.vhd was successful.
+# Compile of controle_despensa_tb.vhd was successful.
+# Compile of controle_despensa_uc.vhd was successful.
+# Compile of controle_servo.vhd was successful.
+# Compile of controle_servo_tb.vhd was successful.
+# Compile of deslocador_n.vhd was successful.
+# Compile of edge_detector.vhd was successful.
+# Compile of gerador_pulso.vhd was successful.
+# Compile of hexa7seg.vhd was successful.
+# Compile of interface_hcsr04.vhd was successful.
+# Compile of interface_hcsr04_fd.vhd was successful.
+# Compile of interface_hcsr04_uc.vhd was successful.
+# Compile of medidor_largura.vhd was successful.
+# Compile of mux_4x1_n.vhd was successful.
+# Compile of neko_uc.vhd was successful.
+# Compile of registrador_2bits.vhd was successful.
+# Compile of registrador_n.vhd was successful.
+# Compile of rx_serial_8N2.vhd was successful.
+# Compile of rx_serial_8N2_fd.vhd was successful.
+# Compile of rx_serial_8N2_tick_uc.vhd was successful.
+# Compile of rx_serial_tb.vhd was successful.
+# Compile of tx_serial_8N2.vhd was successful.
+# Compile of tx_serial_8N2_fd.vhd was successful.
+# Compile of tx_serial_tb.vhd was successful.
+# Compile of tx_serial_tick_uc.vhd was successful.
+# Compile of uart_8N2.vhd was successful.
+# Compile of uart_tb.vhd was successful.
+# 34 compiles, 0 failed with no errors.
+# Break key hit
+# Break in Process line__39 at C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd line 39
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.circuito_uc_tb(tb)
+# Loading work.circuito_uc(circuito_uc_arch)
+# Loading work.neko_uc(neko_uc_arch)
+# Loading work.interface_hcsr04(interface_hcsr04_arch)
+# Loading work.interface_hcsr04_uc(interface_hcsr04_uc_arch)
+# Loading work.interface_hcsr04_fd(arch)
+# Loading work.medidor_largura(medidor_arch)
+# Loading work.contador_divisor(comportamental)
+# Loading work.contador_bcd_4digitos(comportamental)
+# Loading work.registrador_n(registrador_n)
+# Loading work.gerador_pulso(fsm_arch)
+# Loading work.alerta_proximidade(behav)
+# Loading work.contador_m(comportamental)
+run -all
+# ** Note: Inicio da simulacao
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb/dut/INTER/U2_FD/CONTAGEM/CONTADOR_FINAL
+# ** Note: fim da simulacao
+#    Time: 7316330 ns  Iteration: 0  Instance: /circuito_uc_tb
+# Compile of alerta_proximidade.vhd was successful.
+# Compile of circuito_uc.vhd was successful.
+# Compile of circuito_uc_tb.vhd was successful.
+# Compile of contador_bcd_4digitos.vhd was successful.
+# Compile of contador_divisor.vhd was successful.
+# Compile of contador_m.vhd was successful.
+# Compile of controle_despensa.vhd was successful.
+# Compile of controle_despensa_fd.vhd was successful.
+# Compile of controle_despensa_tb.vhd was successful.
+# Compile of controle_despensa_uc.vhd was successful.
+# Compile of controle_servo.vhd was successful.
+# Compile of controle_servo_tb.vhd was successful.
+# Compile of deslocador_n.vhd was successful.
+# Compile of edge_detector.vhd was successful.
+# Compile of gerador_pulso.vhd was successful.
+# Compile of hexa7seg.vhd was successful.
+# Compile of interface_hcsr04.vhd was successful.
+# Compile of interface_hcsr04_fd.vhd was successful.
+# Compile of interface_hcsr04_uc.vhd was successful.
+# Compile of medidor_largura.vhd was successful.
+# Compile of mux_4x1_n.vhd was successful.
+# Compile of neko_uc.vhd was successful.
+# Compile of registrador_2bits.vhd was successful.
+# Compile of registrador_n.vhd was successful.
+# Compile of rx_serial_8N2.vhd was successful.
+# Compile of rx_serial_8N2_fd.vhd was successful.
+# Compile of rx_serial_8N2_tick_uc.vhd was successful.
+# Compile of rx_serial_tb.vhd was successful.
+# Compile of tx_serial_8N2.vhd was successful.
+# Compile of tx_serial_8N2_fd.vhd was successful.
+# Compile of tx_serial_tb.vhd was successful.
+# Compile of tx_serial_tick_uc.vhd was successful.
+# Compile of uart_8N2.vhd was successful.
+# Compile of uart_tb.vhd was successful.
+# 34 compiles, 0 failed with no errors.
+# Break key hit
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.circuito_uc_tb(tb)
+# Loading work.circuito_uc(circuito_uc_arch)
+# Loading work.neko_uc(neko_uc_arch)
+# Loading work.interface_hcsr04(interface_hcsr04_arch)
+# Loading work.interface_hcsr04_uc(interface_hcsr04_uc_arch)
+# Loading work.interface_hcsr04_fd(arch)
+# Loading work.medidor_largura(medidor_arch)
+# Loading work.contador_divisor(comportamental)
+# Loading work.contador_bcd_4digitos(comportamental)
+# Loading work.registrador_n(registrador_n)
+# Loading work.gerador_pulso(fsm_arch)
+# Loading work.alerta_proximidade(behav)
+# Loading work.contador_m(comportamental)
+run -all
+# ** Note: Inicio da simulacao
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb/dut/INTER/U2_FD/CONTAGEM/CONTADOR_FINAL
+# ** Note: fim da simulacao
+#    Time: 7716330 ns  Iteration: 0  Instance: /circuito_uc_tb
+# Compile of alerta_proximidade.vhd was successful.
+# Compile of circuito_uc.vhd was successful.
+# Compile of circuito_uc_tb.vhd was successful.
+# Compile of contador_bcd_4digitos.vhd was successful.
+# Compile of contador_divisor.vhd was successful.
+# Compile of contador_m.vhd was successful.
+# Compile of controle_despensa.vhd was successful.
+# Compile of controle_despensa_fd.vhd was successful.
+# Compile of controle_despensa_tb.vhd was successful.
+# Compile of controle_despensa_uc.vhd was successful.
+# Compile of controle_servo.vhd was successful.
+# Compile of controle_servo_tb.vhd was successful.
+# Compile of deslocador_n.vhd was successful.
+# Compile of edge_detector.vhd was successful.
+# Compile of gerador_pulso.vhd was successful.
+# Compile of hexa7seg.vhd was successful.
+# Compile of interface_hcsr04.vhd was successful.
+# Compile of interface_hcsr04_fd.vhd was successful.
+# Compile of interface_hcsr04_uc.vhd was successful.
+# Compile of medidor_largura.vhd was successful.
+# Compile of mux_4x1_n.vhd was successful.
+# Compile of neko_uc.vhd was successful.
+# Compile of registrador_2bits.vhd was successful.
+# Compile of registrador_n.vhd was successful.
+# Compile of rx_serial_8N2.vhd was successful.
+# Compile of rx_serial_8N2_fd.vhd was successful.
+# Compile of rx_serial_8N2_tick_uc.vhd was successful.
+# Compile of rx_serial_tb.vhd was successful.
+# Compile of tx_serial_8N2.vhd was successful.
+# Compile of tx_serial_8N2_fd.vhd was successful.
+# Compile of tx_serial_tb.vhd was successful.
+# Compile of tx_serial_tick_uc.vhd was successful.
+# Compile of uart_8N2.vhd was successful.
+# Compile of uart_tb.vhd was successful.
+# 34 compiles, 0 failed with no errors.
+# Break key hit
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.circuito_uc_tb(tb)
+# Loading work.circuito_uc(circuito_uc_arch)
+# Loading work.neko_uc(neko_uc_arch)
+# Loading work.interface_hcsr04(interface_hcsr04_arch)
+# Loading work.interface_hcsr04_uc(interface_hcsr04_uc_arch)
+# Loading work.interface_hcsr04_fd(arch)
+# Loading work.medidor_largura(medidor_arch)
+# Loading work.contador_divisor(comportamental)
+# Loading work.contador_bcd_4digitos(comportamental)
+# Loading work.registrador_n(registrador_n)
+# Loading work.gerador_pulso(fsm_arch)
+# Loading work.alerta_proximidade(behav)
+# Loading work.contador_m(comportamental)
+run -all
+# ** Note: Inicio da simulacao
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb/dut/INTER/U2_FD/CONTAGEM/CONTADOR_FINAL
+# Break key hit
+# Simulation stop requested.
+# Compile of alerta_proximidade.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.circuito_uc(circuito_uc_arch)
+# Loading work.alerta_proximidade(behav)
+run -all
+# ** Note: Inicio da simulacao
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /circuito_uc_tb/dut/INTER/U2_FD/CONTAGEM/CONTADOR_FINAL
+# Break key hit
+# Simulation stop requested.
+add wave -position insertpoint  \
+sim:/circuito_uc_tb/clock_in \
+sim:/circuito_uc_tb/reset_in \
+sim:/circuito_uc_tb/echo_in \
+sim:/circuito_uc_tb/disponivel_in \
+sim:/circuito_uc_tb/fechado_in \
+sim:/circuito_uc_tb/trigger_out \
+sim:/circuito_uc_tb/indisponivel_out \
+sim:/circuito_uc_tb/abre_out \
+sim:/circuito_uc_tb/db_medida_out \
+sim:/circuito_uc_tb/db_estado_uc_out \
+sim:/circuito_uc_tb/db_estado_interface_out \
+sim:/circuito_uc_tb/keep_simulating \
+sim:/circuito_uc_tb/clockPeriod
+# Break key hit
+# End time: 22:50:25 on Nov 21,2021, Elapsed time: 3:11:59
+# Errors: 0, Warnings: 2
