@@ -205,6 +205,51 @@ R27
 !i113 1
 R11
 R12
+Econtador_alimentacao
+Z28 w1637977506
+R14
+R15
+R1
+R2
+!i122 1214
+R3
+Z29 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_alimentacao.vhd
+Z30 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_alimentacao.vhd
+l0
+L7 1
+VcRA0P0la4o=4IU6336Vf42
+!s100 G<SEgW1A6QQQ3i5kFm5fM0
+R6
+32
+Z31 !s110 1638018559
+!i10b 1
+Z32 !s108 1638018559.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_alimentacao.vhd|
+Z34 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_alimentacao.vhd|
+!i113 1
+R11
+R12
+Acomportamental
+R14
+R15
+R1
+R2
+DEx4 work 20 contador_alimentacao 0 22 cRA0P0la4o=4IU6336Vf42
+!i122 1214
+l19
+L16 35
+VOb44^6[ZajKoH?CPaCDnA2
+!s100 g5zoc;Q8TO4kd_90i;cR^0
+R6
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R11
+R12
 Econtador_bcd_4digitos
 R0
 R14
@@ -215,14 +260,22 @@ R2
 !i122 1123
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 R3
+<<<<<<< HEAD
 Z25 8C:/Users/gabri/workspace/NekoNekoNee/vhd/contador_bcd_4digitos.vhd
 Z26 FC:/Users/gabri/workspace/NekoNekoNee/vhd/contador_bcd_4digitos.vhd
 l0
 L22
+=======
+Z35 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_bcd_4digitos.vhd
+Z36 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_bcd_4digitos.vhd
+l0
+Z37 L22 1
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 VH6;NRGV:RgbmaaaEDz<kH3
 !s100 P>5]QT8_Wz>=oMPd<fBU41
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R7
 !i10b 1
@@ -236,6 +289,13 @@ R19
 Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_bcd_4digitos.vhd|
 Z33 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_bcd_4digitos.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z38 !s110 1637556560
+!i10b 1
+R19
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_bcd_4digitos.vhd|
+Z40 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_bcd_4digitos.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -255,6 +315,7 @@ V_OA[Y<Eh[D7h93F5]ef9T0
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R7
 !i10b 1
 R8
@@ -267,6 +328,13 @@ R19
 R32
 R33
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R38
+!i10b 1
+R19
+R39
+R40
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -277,6 +345,7 @@ R14
 R1
 R2
 <<<<<<< HEAD
+<<<<<<< HEAD
 R3
 Z29 8C:/Users/gabri/workspace/NekoNekoNee/vhd/contador_divisor.vhd
 Z30 FC:/Users/gabri/workspace/NekoNekoNee/vhd/contador_divisor.vhd
@@ -286,6 +355,12 @@ R3
 Z34 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd
 Z35 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+!i122 1215
+R3
+Z41 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd
+Z42 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L7
 VQ>o3INCW8kh4TIbE@DZJB0
@@ -301,10 +376,16 @@ Z32 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/contador_divisor.vhd|
 =======
 R31
 !i10b 1
+<<<<<<< HEAD
 Z36 !s108 1637556560.000000
 Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd|
 Z38 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R32
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd|
+Z44 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -315,9 +396,13 @@ R1
 R2
 DEx4 work 16 contador_divisor 0 22 Q>o3INCW8kh4TIbE@DZJB0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 !i122 1124
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+!i122 1215
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l18
 L16
 VO[]8^9Ta?c`YQ_BHX?Pc<2
@@ -333,20 +418,30 @@ R32
 =======
 R31
 !i10b 1
+<<<<<<< HEAD
 R36
 R37
 R38
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R32
+R43
+R44
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Econtador_m
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z33 w1637261218
 R13
 =======
 Z39 w1637468146
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z45 w1637468146
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R14
 R1
 R2
@@ -357,15 +452,21 @@ Z35 FC:/Users/gabri/workspace/NekoNekoNee/vhd/contador_m.vhd
 =======
 !i122 1125
 R3
+<<<<<<< HEAD
 Z40 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd
 Z41 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z46 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd
+Z47 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L24
 V=?JFUJKk2VSeHh[eMfG2B3
 !s100 h6VknzPN<1CEMg;cE3VcS1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z36 !s110 1637563616
 !i10b 1
@@ -379,6 +480,13 @@ R36
 Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd|
 Z44 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z48 !s110 1637556561
+!i10b 1
+Z49 !s108 1637556560.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd|
+Z51 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -399,6 +507,7 @@ Vd_SZS^cc5UgmiUgkL<aKQ0
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R8
@@ -411,10 +520,61 @@ R36
 R43
 R44
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 1
+R11
+R12
+Econtador_timer
+Z52 w1637971254
+R15
+R1
+R2
+!i122 1216
+R3
+Z53 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd
+Z54 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd
+l0
+L23 1
+Vg@52D7fElkMVTmXb5YUZA0
+!s100 Q?]g<GPU]oaS:6cREiDK]1
+R6
+32
+Z55 !s110 1638018560
+!i10b 1
+R32
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd|
+Z57 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd|
+!i113 1
+R11
+R12
+Acomportamental
+R15
+R1
+R2
+DEx4 work 14 contador_timer 0 22 g@52D7fElkMVTmXb5YUZA0
+!i122 1216
+l36
+L32 80
+V<LX1=g;SXm@NCKjJbiAo23
+!s100 DjQ:2bbL7cSmbORiXC7_73
+R6
+32
+R55
+!i10b 1
+R32
+R56
+R57
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Econtrole_despensa
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z39 w1637558825
 R14
@@ -425,20 +585,29 @@ Z40 8C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa.vhd
 Z41 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa.vhd
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R15
 R1
 R2
 !i122 1126
 R3
+<<<<<<< HEAD
 Z45 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd
 Z46 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z58 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd
+Z59 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L5
 VQbZ:W_:z5Yd5CBWA>^H=Y3
 !s100 fiCh<1oB=_>K9SC1_zz8b1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R36
 !i10b 1
@@ -452,6 +621,13 @@ Z47 !s108 1637556561.000000
 Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd|
 Z49 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R48
+!i10b 1
+Z60 !s108 1637556561.000000
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd|
+Z62 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -472,6 +648,7 @@ V@HAHOg;7R]IP^m2;bAJQc1
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -484,16 +661,27 @@ R47
 R48
 R49
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R48
+!i10b 1
+R60
+R61
+R62
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Econtrole_despensa_fd
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z45 w1637560386
 R13
 =======
 R39
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R14
 R1
 R2
@@ -504,15 +692,21 @@ Z47 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_fd.vhd
 =======
 !i122 1127
 R3
+<<<<<<< HEAD
 Z50 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd
 Z51 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z63 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd
+Z64 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L6
 VNC7U90n1NFZcN<j_S1j7^3
 !s100 G@_fFF2efYmi6<4B<iiA23
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R36
 !i10b 1
@@ -526,6 +720,13 @@ R47
 Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd|
 Z53 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R48
+!i10b 1
+R60
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd|
+Z66 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -546,6 +747,7 @@ V8AoMGMV5DWSV=oWQ^NF:03
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -558,10 +760,18 @@ R47
 R52
 R53
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R48
+!i10b 1
+R60
+R65
+R66
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Econtrole_despensa_tb
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z50 w1637560389
 R1
@@ -571,19 +781,28 @@ Z51 8C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_tb.vhd
 Z52 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_tb.vhd
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
 !i122 1128
 R3
+<<<<<<< HEAD
 Z54 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd
 Z55 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z67 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd
+Z68 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L4
 V2?CjQYM4RFRe3<Jnk6WJ31
 !s100 =^]U2S1_WnLDDahSCUzKT3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R36
 !i10b 1
@@ -597,6 +816,13 @@ R47
 Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd|
 Z58 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z69 !s110 1637556562
+!i10b 1
+R60
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd|
+Z71 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -615,6 +841,7 @@ VKoeX]lDQT5>V8`5APmLS42
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -627,10 +854,18 @@ R47
 R57
 R58
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R69
+!i10b 1
+R60
+R70
+R71
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Econtrole_despensa_uc
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z55 w1637560352
 R1
@@ -640,19 +875,28 @@ Z56 8C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_uc.vhd
 Z57 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_uc.vhd
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
 !i122 1129
 R3
+<<<<<<< HEAD
 Z59 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd
 Z60 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z72 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd
+Z73 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L6
 VX6AdoDUbCZ8;:<<JGk=I@1
 !s100 >@i^Fl3=1JG6<Gjc9?dF<2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R36
 !i10b 1
@@ -666,6 +910,13 @@ Z61 !s108 1637556562.000000
 Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd|
 Z63 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R69
+!i10b 1
+Z74 !s108 1637556562.000000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd|
+Z76 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -769,6 +1020,7 @@ V5_?@iA<?n6koR_cZmnQzY2
 !s100 8kRh0i`VPlR2[6PH73Uco2
 R6
 32
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -820,10 +1072,18 @@ R61
 R62
 R63
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R69
+!i10b 1
+R74
+R75
+R76
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Econtrole_servo
+<<<<<<< HEAD
 <<<<<<< HEAD
 R33
 R14
@@ -834,20 +1094,29 @@ Z78 8C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo.vhd
 Z79 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo.vhd
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R15
 R1
 R2
 !i122 1130
 R3
+<<<<<<< HEAD
 Z64 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd
 Z65 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z77 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd
+Z78 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L5
 VEV9=IJ<QmXPd31LJGE<YT3
 !s100 Vf?LkLY5LLDkl]R0lfFXC3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R36
 !i10b 1
@@ -861,6 +1130,13 @@ R61
 Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd|
 Z67 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R69
+!i10b 1
+R74
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd|
+Z80 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -880,6 +1156,7 @@ VG[7A^IeBk[;;G5z67g8O_0
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -892,10 +1169,18 @@ R61
 R66
 R67
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R69
+!i10b 1
+R74
+R79
+R80
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Econtrole_servo_tb
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z82 w1635024326
 R1
@@ -905,19 +1190,28 @@ Z83 8C:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo_tb.vhd
 Z84 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_servo_tb.vhd
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
 !i122 1131
 R3
+<<<<<<< HEAD
 Z68 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd
 Z69 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z81 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd
+Z82 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L4
 VJB[6z7XQ@o;ZSD<n4>:6N3
 !s100 ]Pc9]o6O7WL0?4Y]k49DE1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R36
 !i10b 1
@@ -931,6 +1225,13 @@ Z71 !s108 1637556563.000000
 Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd|
 Z73 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z83 !s110 1637556563
+!i10b 1
+Z84 !s108 1637556563.000000
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd|
+Z86 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -949,6 +1250,7 @@ V[3=?lOdWgNJDS8IF>QKBe2
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -961,10 +1263,18 @@ R71
 R72
 R73
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R83
+!i10b 1
+R84
+R85
+R86
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Edeslocador_n
+<<<<<<< HEAD
 <<<<<<< HEAD
 R33
 R1
@@ -974,19 +1284,30 @@ Z87 8C:/Users/gabri/workspace/NekoNekoNee/vhd/deslocador_n.vhd
 Z88 FC:/Users/gabri/workspace/NekoNekoNee/vhd/deslocador_n.vhd
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
 !i122 1132
 R3
+<<<<<<< HEAD
 Z74 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd
 Z75 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 l0
 L22
+=======
+Z87 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd
+Z88 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd
+l0
+R37
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 V6lX5ljC2CU3mJZi]RNTA=0
 !s100 ?cz8GAOBiJNYXRA>8_<o@2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R36
 !i10b 1
@@ -1000,6 +1321,13 @@ R71
 Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd|
 Z77 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R83
+!i10b 1
+R84
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd|
+Z90 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1018,6 +1346,7 @@ VzDU?U;zAD4<N1NlBzZE`;2
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -1030,10 +1359,63 @@ R71
 R76
 R77
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R83
+!i10b 1
+R84
+R89
+R90
+!i113 1
+R11
+R12
+Edivisor_timer
+Z91 w1637961084
+R14
+R15
+R1
+R2
+!i122 1217
+R3
+Z92 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/divisor_timer.vhd
+Z93 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/divisor_timer.vhd
+l0
+L6 1
+VUJm?F@J84>`UmX[C8b><j3
+!s100 TVl[THT]KhCAkzEA?mXWV3
+R6
+32
+R55
+!i10b 1
+Z94 !s108 1638018560.000000
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/divisor_timer.vhd|
+Z96 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/divisor_timer.vhd|
+!i113 1
+R11
+R12
+Acomportamental
+R14
+R15
+R1
+R2
+DEx4 work 13 divisor_timer 0 22 UJm?F@J84>`UmX[C8b><j3
+!i122 1217
+l18
+L15 42
+VNA]ED8m^1US_BF`docz4h0
+!s100 z:?<8H:DL8m45jk2K17Y31
+R6
+32
+R55
+!i10b 1
+R94
+R95
+R96
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Eedge_detector
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z91 w1635024683
 R1
@@ -1045,19 +1427,27 @@ l0
 L20
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
 !i122 1133
 R3
-Z78 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/edge_detector.vhd
-Z79 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/edge_detector.vhd
+Z97 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/edge_detector.vhd
+Z98 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/edge_detector.vhd
 l0
+<<<<<<< HEAD
 Z80 L20 1
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z99 L20 1
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 VHlhzMHiWSjGSej[VJdfiQ1
 !s100 IL>P<]N@`F;S]1F1bNN]I3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z94 !s110 1637563617
 !i10b 1
@@ -1071,6 +1461,13 @@ R71
 Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/edge_detector.vhd|
 Z83 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/edge_detector.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z100 !s110 1637556564
+!i10b 1
+R84
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/edge_detector.vhd|
+Z102 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/edge_detector.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1089,6 +1486,7 @@ VcoBX@d2PY4=CBbzAS[mC21
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R94
 !i10b 1
 R95
@@ -1101,6 +1499,13 @@ R71
 R82
 R83
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R100
+!i10b 1
+R84
+R101
+R102
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1118,15 +1523,20 @@ L20
 =======
 !i122 1134
 R3
-Z84 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/gerador_pulso.vhd
-Z85 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/gerador_pulso.vhd
+Z103 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/gerador_pulso.vhd
+Z104 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/gerador_pulso.vhd
 l0
+<<<<<<< HEAD
 R80
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R99
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 Vcf@b09aQcfmiO4cTOQOW=2
 !s100 3T@PMP2WDo7ShgC1I0PzA2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R94
 !i10b 1
@@ -1140,6 +1550,13 @@ Z86 !s108 1637556564.000000
 Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/gerador_pulso.vhd|
 Z88 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/gerador_pulso.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R100
+!i10b 1
+Z105 !s108 1637556564.000000
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/gerador_pulso.vhd|
+Z107 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/gerador_pulso.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1159,6 +1576,7 @@ Vo;oTlIdAk6:V9z0F^mG0e2
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R94
 !i10b 1
 R95
@@ -1171,10 +1589,18 @@ R86
 R87
 R88
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R100
+!i10b 1
+R105
+R106
+R107
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Ehexa7seg
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z102 w1635024132
 R1
@@ -1184,19 +1610,30 @@ Z103 8C:/Users/gabri/workspace/NekoNekoNee/vhd/hexa7seg.vhd
 Z104 FC:/Users/gabri/workspace/NekoNekoNee/vhd/hexa7seg.vhd
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
-!i122 1135
+!i122 1218
 R3
+<<<<<<< HEAD
 Z89 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd
 Z90 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 l0
 L22
+=======
+Z108 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd
+Z109 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd
+l0
+R37
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 VDcEZ9MaC9:I]UU^aY`Dnd3
 !s100 PkijLd]1n2B[9ZRE92gHE3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R94
 !i10b 1
@@ -1210,6 +1647,13 @@ R86
 Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd|
 Z92 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R55
+!i10b 1
+R94
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd|
+Z111 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1218,15 +1662,20 @@ R1
 R2
 DEx4 work 8 hexa7seg 0 22 DcEZ9MaC9:I]UU^aY`Dnd3
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 !i122 1135
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+!i122 1218
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l30
 L29
 Vlm>zk87DUO_Vmo1eLODf^3
 !s100 ?9SgY[JS3VNifPKV`JO<e0
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R94
 !i10b 1
@@ -1240,16 +1689,27 @@ R86
 R91
 R92
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R55
+!i10b 1
+R94
+R110
+R111
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Einterface_hcsr04
+<<<<<<< HEAD
 <<<<<<< HEAD
 R82
 R13
 =======
 Z93 w1637468182
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z112 w1637468182
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R14
 R1
 R2
@@ -1260,15 +1720,21 @@ Z108 FC:/Users/gabri/workspace/NekoNekoNee/vhd/interface_hcsr04.vhd
 =======
 !i122 1136
 R3
+<<<<<<< HEAD
 Z94 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd
 Z95 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z113 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd
+Z114 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L6
 V1O8^f`X3ZED9f0>K`2BGN0
 !s100 QSiX2j8AH:BYG8:zBW>^o3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R94
 !i10b 1
@@ -1282,6 +1748,13 @@ Z97 !s108 1637556565.000000
 Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd|
 Z99 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z115 !s110 1637556565
+!i10b 1
+Z116 !s108 1637556565.000000
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd|
+Z118 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1302,6 +1775,7 @@ VEz5BQ52i6kX9QZ`QYfDzV3
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R94
 !i10b 1
 R95
@@ -1314,16 +1788,27 @@ R97
 R98
 R99
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R115
+!i10b 1
+R116
+R117
+R118
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Einterface_hcsr04_fd
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z111 w1635034548
 R13
 =======
 R93
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R112
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R14
 R1
 R2
@@ -1334,15 +1819,21 @@ Z113 FC:/Users/gabri/workspace/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
 =======
 !i122 1137
 R3
+<<<<<<< HEAD
 Z100 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
 Z101 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z119 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
+Z120 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L7
 Vk=1PXE>GRoKcY[N12TQ853
 !s100 aiW;Hjl9DE60aMYk<AoFj0
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R94
 !i10b 1
@@ -1356,6 +1847,13 @@ R97
 Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd|
 Z103 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R115
+!i10b 1
+R116
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd|
+Z122 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1375,6 +1873,7 @@ V_jXeJ>>T0TILY00>>cZ1S1
 !s100 0L_@E8GKg[NMUE]2=gzNa1
 R6
 32
+<<<<<<< HEAD
 R94
 !i10b 1
 <<<<<<< HEAD
@@ -1386,10 +1885,18 @@ R97
 R102
 R103
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R115
+!i10b 1
+R116
+R121
+R122
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Einterface_hcsr04_uc
+<<<<<<< HEAD
 <<<<<<< HEAD
 R82
 R1
@@ -1399,19 +1906,28 @@ Z116 8C:/Users/gabri/workspace/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
 Z117 FC:/Users/gabri/workspace/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
 =======
 R93
+=======
+R112
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
 !i122 1138
 R3
+<<<<<<< HEAD
 Z104 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
 Z105 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z123 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
+Z124 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L5
 V4m0UbhSX4AhgU7<^kLe?23
 !s100 :4K3a6InPWE=mPTcCh<VM3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R94
 !i10b 1
@@ -1425,6 +1941,13 @@ Z107 !s108 1637556566.000000
 Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd|
 Z109 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z125 !s110 1637556566
+!i10b 1
+Z126 !s108 1637556566.000000
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd|
+Z128 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1443,6 +1966,7 @@ Vl3GmiDg@3Q6iPA9j1W2zG3
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R94
 !i10b 1
 R95
@@ -1455,6 +1979,13 @@ R107
 R108
 R109
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R125
+!i10b 1
+R126
+R127
+R128
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1471,15 +2002,21 @@ Z121 FC:/Users/gabri/workspace/NekoNekoNee/vhd/medidor_largura.vhd
 =======
 !i122 1139
 R3
+<<<<<<< HEAD
 Z110 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd
 Z111 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z129 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd
+Z130 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L6
 Vag;B4G3b_e1^_ld@Bol@I2
 !s100 @IoUL[knKU=Sja4=a2i_20
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R94
 !i10b 1
@@ -1493,6 +2030,13 @@ R107
 Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd|
 Z113 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R125
+!i10b 1
+R126
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd|
+Z132 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1513,6 +2057,7 @@ VMm6jEk7MSk7Ga:7;i5aPR3
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R94
 !i10b 1
 R95
@@ -1525,10 +2070,18 @@ R107
 R112
 R113
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R125
+!i10b 1
+R126
+R131
+R132
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Emux_4x1_n
+<<<<<<< HEAD
 <<<<<<< HEAD
 R33
 R1
@@ -1538,19 +2091,28 @@ Z124 8C:/Users/gabri/workspace/NekoNekoNee/vhd/mux_4x1_n.vhd
 Z125 FC:/Users/gabri/workspace/NekoNekoNee/vhd/mux_4x1_n.vhd
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
 !i122 1140
 R3
+<<<<<<< HEAD
 Z114 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd
 Z115 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z133 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd
+Z134 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L4
 VW60]MG^cQe^k@@eaemLbQ3
 !s100 oc;kA`0HORI=YITD7BnPE1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R94
 !i10b 1
@@ -1564,6 +2126,13 @@ R107
 Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd|
 Z118 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z135 !s110 1637556567
+!i10b 1
+R126
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd|
+Z137 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1581,6 +2150,7 @@ VYT7zA1Xz[999325MmLf;c0
 !s100 3G=F`jb_l8P2S@gbX8H>72
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R94
 !i10b 1
@@ -1678,10 +2248,18 @@ R107
 R117
 R118
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R135
+!i10b 1
+R126
+R136
+R137
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Eneko_uc
+<<<<<<< HEAD
 <<<<<<< HEAD
 R0
 R1
@@ -1691,19 +2269,28 @@ Z138 8C:/Users/gabri/workspace/NekoNekoNee/vhd/neko_uc.vhd
 Z139 FC:/Users/gabri/workspace/NekoNekoNee/vhd/neko_uc.vhd
 =======
 Z119 w1637556388
+=======
+Z138 w1637556388
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
 !i122 1141
 R3
+<<<<<<< HEAD
 Z120 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd
 Z121 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z139 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd
+Z140 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L5
 V@elf;0BXhNCMam21z3ZhD1
 !s100 8P6Sg?194m`G2zGcg4hJ52
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z140 !s110 1637555103
 !i10b 1
@@ -1717,6 +2304,13 @@ Z122 !s108 1637556567.000000
 Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd|
 Z124 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R135
+!i10b 1
+Z141 !s108 1637556567.000000
+Z142 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd|
+Z143 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1735,6 +2329,7 @@ VgKPmWgSXSf7UMm7GiU9<32
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R140
 !i10b 1
 R141
@@ -1747,10 +2342,18 @@ R122
 R123
 R124
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R135
+!i10b 1
+R141
+R142
+R143
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Eregistrador_2bits
+<<<<<<< HEAD
 <<<<<<< HEAD
 R33
 R1
@@ -1760,19 +2363,28 @@ Z144 8C:/Users/gabri/workspace/NekoNekoNee/vhd/registrador_2bits.vhd
 Z145 FC:/Users/gabri/workspace/NekoNekoNee/vhd/registrador_2bits.vhd
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
 !i122 1142
 R3
+<<<<<<< HEAD
 Z125 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd
 Z126 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z144 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd
+Z145 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L4
 VNK2A0l37A1PEj0nc2AKZ11
 !s100 P8f4gFa^S2MA>Xd]fJUT_1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z146 !s110 1637563618
 !i10b 1
@@ -1786,6 +2398,13 @@ R122
 Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd|
 Z129 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z146 !s110 1637556568
+!i10b 1
+R141
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd|
+Z148 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1804,6 +2423,7 @@ VF4k9R80ON[12_zJk6`g]F3
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -1816,6 +2436,13 @@ R122
 R128
 R129
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R146
+!i10b 1
+R141
+R147
+R148
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1823,6 +2450,7 @@ Eregistrador_n
 R0
 R1
 R2
+<<<<<<< HEAD
 <<<<<<< HEAD
 R3
 Z150 8C:/Users/gabri/workspace/NekoNekoNee/vhd/registrador_n.vhd
@@ -1835,10 +2463,19 @@ Z131 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 l0
 L22
+=======
+!i122 1219
+R3
+Z149 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd
+Z150 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd
+l0
+R37
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 VX2?jS9K[YhL1SR6K6_?T[2
 !s100 2:KGQ3VJh55Dh8[E47b6_2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R146
 !i10b 1
@@ -1852,6 +2489,13 @@ Z132 !s108 1637556568.000000
 Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd|
 Z134 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z151 !s110 1638018561
+!i10b 1
+R94
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd|
+Z153 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1860,15 +2504,20 @@ R1
 R2
 DEx4 work 13 registrador_n 0 22 X2?jS9K[YhL1SR6K6_?T[2
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 !i122 1143
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+!i122 1219
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l37
 L35
 V>>E58elNLBlV917fPPk>i2
 !s100 9HEogJ?JPL<Z`6]GeiMC^2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R146
 !i10b 1
@@ -1882,16 +2531,27 @@ R132
 R133
 R134
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R151
+!i10b 1
+R94
+R152
+R153
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Erx_serial_8n2
+<<<<<<< HEAD
 <<<<<<< HEAD
 R102
 R13
 =======
 R39
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R14
 R1
 R2
@@ -1904,15 +2564,20 @@ L18
 =======
 !i122 1144
 R3
-Z135 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd
-Z136 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd
+Z154 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd
+Z155 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd
 l0
+<<<<<<< HEAD
 Z137 L18 1
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z156 L18 1
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 VD^WnfB3=Wnf:UA?6GliC^0
 !s100 Ye7N;D=fjTMB>H40?`k?S0
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R146
 !i10b 1
@@ -1926,6 +2591,13 @@ R132
 Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd|
 Z139 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R146
+!i10b 1
+Z157 !s108 1637556568.000000
+Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd|
+Z159 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -1935,9 +2607,13 @@ R14
 R1
 R2
 <<<<<<< HEAD
+<<<<<<< HEAD
 Z158 DEx4 work 13 rx_serial_8n2 0 22 D^WnfB3=Wnf:UA?6GliC^0
 =======
 Z140 DEx4 work 13 rx_serial_8n2 0 22 D^WnfB3=Wnf:UA?6GliC^0
+=======
+Z160 DEx4 work 13 rx_serial_8n2 0 22 D^WnfB3=Wnf:UA?6GliC^0
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i122 1144
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 l70
@@ -1946,6 +2622,7 @@ VJe3O6g7HdD@P[Q7JFo0b70
 !s100 P5^8Hl99Ze649OYN?^h`A3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R146
 !i10b 1
@@ -1959,16 +2636,27 @@ R132
 R138
 R139
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R146
+!i10b 1
+R157
+R158
+R159
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Erx_serial_8n2_fd
+<<<<<<< HEAD
 <<<<<<< HEAD
 R102
 R13
 =======
 R39
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R14
 R1
 R2
@@ -1981,15 +2669,20 @@ L20
 =======
 !i122 1145
 R3
-Z141 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd
-Z142 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd
+Z161 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd
+Z162 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd
 l0
+<<<<<<< HEAD
 R80
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R99
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 VnQBA`<a2Qk5=FzEgKETc10
 !s100 ]KK_:^RaR`z2YQPemVKV61
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R146
 !i10b 1
@@ -2003,6 +2696,13 @@ Z144 !s108 1637556569.000000
 Z145 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd|
 Z146 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z163 !s110 1637556569
+!i10b 1
+Z164 !s108 1637556569.000000
+Z165 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd|
+Z166 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -2023,6 +2723,7 @@ V4mXYWoea2gJVe2m]8J?@N2
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -2035,10 +2736,18 @@ R144
 R145
 R146
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R163
+!i10b 1
+R164
+R165
+R166
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Erx_serial_tb
+<<<<<<< HEAD
 <<<<<<< HEAD
 R82
 R14
@@ -2051,20 +2760,28 @@ l0
 L20
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R15
 R1
 R2
 !i122 1147
 R3
-Z147 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd
-Z148 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd
+Z167 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd
+Z168 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd
 l0
+<<<<<<< HEAD
 R80
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R99
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 VN=ET<MDOY;RKfAmV9mY]k0
 !s100 ^UFXlok4neO9zCRn;eERJ1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R146
 !i10b 1
@@ -2078,6 +2795,13 @@ R144
 Z150 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd|
 Z151 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z169 !s110 1637556570
+!i10b 1
+R164
+Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd|
+Z171 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -2086,11 +2810,15 @@ R13
 R158
 R14
 <<<<<<< HEAD
+<<<<<<< HEAD
 R1
 R2
 DEx4 work 12 rx_serial_tb 0 22 N=ET<MDOY;RKfAmV9mY]k0
 =======
 R140
+=======
+R160
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R15
 R1
 R2
@@ -2104,6 +2832,7 @@ Vhdh?[Z]mEQ[b^chPcRD3^1
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -2116,10 +2845,18 @@ R144
 R150
 R151
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R169
+!i10b 1
+R164
+R170
+R171
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Erx_serial_tick_uc
+<<<<<<< HEAD
 <<<<<<< HEAD
 R102
 R1
@@ -2131,19 +2868,27 @@ l0
 L20
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
 !i122 1146
 R3
-Z152 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd
-Z153 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd
+Z172 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd
+Z173 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd
 l0
+<<<<<<< HEAD
 R80
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R99
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 Vlkf4^c0Gz0LQB024LW2C;0
 !s100 i5DMSkh73YfD40d8FN8?o2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R146
 !i10b 1
@@ -2157,6 +2902,13 @@ R144
 Z154 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd|
 Z155 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R163
+!i10b 1
+R164
+Z174 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd|
+Z175 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -2175,6 +2927,7 @@ VK=Hg0Q[4c6Hh?oPEoC`;Y2
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -2187,16 +2940,201 @@ R144
 R154
 R155
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R163
+!i10b 1
+R164
+R174
+R175
+!i113 1
+R11
+R12
+Etimer
+Z176 w1637986077
+R14
+R15
+R1
+R2
+!i122 1220
+R3
+Z177 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd
+Z178 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd
+l0
+L7 1
+VeSg_oQBQH03EC4mh6ibbe2
+!s100 FHcWAjjLLN_=3OBzkJkf^1
+R6
+32
+R151
+!i10b 1
+Z179 !s108 1638018561.000000
+Z180 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd|
+Z181 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd|
+!i113 1
+R11
+R12
+Atimer_arch
+R14
+R15
+R1
+R2
+DEx4 work 5 timer 0 22 eSg_oQBQH03EC4mh6ibbe2
+!i122 1220
+l63
+L23 121
+V<ZP`^T7C6lbSIoI=D2KVj3
+!s100 AdId9TUTYEYm6fT2BSYZV2
+R6
+32
+R151
+!i10b 1
+R179
+R180
+R181
+!i113 1
+R11
+R12
+Etimer_fd
+Z182 w1637979165
+R14
+R15
+R1
+R2
+!i122 1221
+R3
+Z183 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd
+Z184 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd
+l0
+L6 1
+VM]m0W0d^ZYLo?;7IfiO]<2
+!s100 kghV0`bEIlej^^=C@D9?42
+R6
+32
+R151
+!i10b 1
+R179
+Z185 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd|
+Z186 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd|
+!i113 1
+R11
+R12
+Aarch
+R14
+R15
+R1
+R2
+DEx4 work 8 timer_fd 0 22 M]m0W0d^ZYLo?;7IfiO]<2
+!i122 1221
+l61
+L16 111
+VaIzLgfHd[P>5GG4X0PP;g2
+!s100 eEcb:@[ge85BRCYY9G[lN0
+R6
+32
+R151
+!i10b 1
+R179
+R185
+R186
+!i113 1
+R11
+R12
+Etimer_tb
+Z187 w1638018555
+R15
+R1
+R2
+!i122 1222
+R3
+Z188 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd
+Z189 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd
+l0
+R25
+V0RD_hM7iS>]I8G>ng33oP2
+!s100 Xg0_OHeYTIdG3?>bQ;ZMk2
+R6
+32
+Z190 !s110 1638018562
+!i10b 1
+R179
+Z191 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd|
+Z192 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd|
+!i113 1
+R11
+R12
+Atb
+R15
+R1
+R2
+DEx4 work 8 timer_tb 0 22 0RD_hM7iS>]I8G>ng33oP2
+!i122 1222
+l59
+L22 118
+VdzWkVL:LVZTg:KiXE[]YH2
+!s100 RA5Y1SkJkB1h[_oi8c;<D2
+R6
+32
+R190
+!i10b 1
+R179
+R191
+R192
+!i113 1
+R11
+R12
+Etimer_uc
+Z193 w1637978127
+R1
+R2
+!i122 1223
+R3
+Z194 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd
+Z195 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd
+l0
+L5 1
+VdHDR5;Q]c51e:`UhS;SGm2
+!s100 3]1Nf8TgYBAf9Fd9hILe?3
+R6
+32
+R190
+!i10b 1
+Z196 !s108 1638018562.000000
+Z197 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd|
+Z198 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd|
+!i113 1
+R11
+R12
+Atimer_uc_arch
+R1
+R2
+Z199 DEx4 work 8 timer_uc 0 22 dHDR5;Q]c51e:`UhS;SGm2
+!i122 1223
+l32
+Z200 L20 80
+Z201 VOH8T;bfoU04`Z0@5NF3iA2
+Z202 !s100 WSLhOjdJ:=T4TY:hjXmJ^3
+R6
+32
+R190
+!i10b 1
+R196
+R197
+R198
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Etx_serial_8n2
+<<<<<<< HEAD
 <<<<<<< HEAD
 R102
 R13
 =======
 R39
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R14
 R1
 R2
@@ -2207,15 +3145,21 @@ Z172 FC:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2.vhd
 =======
 !i122 1148
 R3
+<<<<<<< HEAD
 Z156 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd
 Z157 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z203 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd
+Z204 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L6
 VU>[XB0HU>:6Cz<8mSImiB0
 !s100 W`BIG>g:XIYC2c7Ci]X651
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R146
 !i10b 1
@@ -2229,6 +3173,13 @@ Z158 !s108 1637556570.000000
 Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd|
 Z160 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R169
+!i10b 1
+Z205 !s108 1637556570.000000
+Z206 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd|
+Z207 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -2249,6 +3200,7 @@ VPE>Bjg09e4X4F4T7@?hF03
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -2261,16 +3213,27 @@ R158
 R159
 R160
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R169
+!i10b 1
+R205
+R206
+R207
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Etx_serial_8n2_fd
+<<<<<<< HEAD
 <<<<<<< HEAD
 R102
 R13
 =======
 R39
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R14
 R1
 R2
@@ -2281,15 +3244,23 @@ Z176 FC:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
 =======
 !i122 1149
 R3
+<<<<<<< HEAD
 Z161 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
 Z162 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 l0
 L22
+=======
+Z208 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
+Z209 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
+l0
+R37
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 ViT7ZX]0P1:DlP]aahX62W2
 !s100 8<k5DmCO[DMQQ>_X;G3840
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R146
 !i10b 1
@@ -2303,6 +3274,13 @@ R158
 Z163 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd|
 Z164 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R169
+!i10b 1
+R205
+Z210 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd|
+Z211 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -2323,6 +3301,7 @@ V`SSAn=I`:@5N6VkIl9<DE1
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -2335,10 +3314,18 @@ R158
 R163
 R164
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R169
+!i10b 1
+R205
+R210
+R211
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Etx_serial_tb
+<<<<<<< HEAD
 <<<<<<< HEAD
 R82
 R14
@@ -2351,13 +3338,16 @@ l0
 L19
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R15
 R1
 R2
 !i122 1150
 R3
-Z165 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd
-Z166 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd
+Z212 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd
+Z213 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd
 l0
 R25
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
@@ -2365,6 +3355,7 @@ Vlk@R3OL?6BSEfAH=lWUgH2
 !s100 5e48NkQkoKhZLm;kF9;II0
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R146
 !i10b 1
@@ -2378,6 +3369,13 @@ Z168 !s108 1637556571.000000
 Z169 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd|
 Z170 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z214 !s110 1637556571
+!i10b 1
+Z215 !s108 1637556571.000000
+Z216 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd|
+Z217 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -2397,6 +3395,7 @@ V^<1R6HQ:^ll[:z7XIamf60
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -2409,10 +3408,18 @@ R168
 R169
 R170
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R214
+!i10b 1
+R215
+R216
+R217
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Etx_serial_tick_uc
+<<<<<<< HEAD
 <<<<<<< HEAD
 R102
 R1
@@ -2422,19 +3429,28 @@ Z183 8C:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
 Z184 FC:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R1
 R2
 !i122 1151
 R3
+<<<<<<< HEAD
 Z171 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
 Z172 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z218 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
+Z219 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 l0
 L21
 VTUzi;P^U6=`b7ef3oKT1P3
 !s100 8i2PjSek?RhjX5:2_Fdie0
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R146
 !i10b 1
@@ -2448,6 +3464,13 @@ R168
 Z173 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd|
 Z174 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R214
+!i10b 1
+R215
+Z220 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd|
+Z221 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -2466,6 +3489,7 @@ VO@I`il=3<2JI_KF@iAORm2
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -2478,16 +3502,27 @@ R168
 R173
 R174
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R214
+!i10b 1
+R215
+R220
+R221
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Euart_8n2
+<<<<<<< HEAD
 <<<<<<< HEAD
 R102
 R13
 =======
 R39
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R14
 R1
 R2
@@ -2500,15 +3535,20 @@ L18
 =======
 !i122 1152
 R3
-Z175 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd
-Z176 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd
+Z222 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd
+Z223 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd
 l0
+<<<<<<< HEAD
 R137
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R156
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 VHQZm`_kFk?<O=ZZBj1BZQ3
 !s100 7D6L]`LR`o>7UQn8mI@Nm1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z189 !s110 1637563619
 !i10b 1
@@ -2522,6 +3562,13 @@ R168
 Z178 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd|
 Z179 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+Z224 !s110 1637556572
+!i10b 1
+R215
+Z225 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd|
+Z226 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -2542,6 +3589,7 @@ VOEP_6I4L?A<FgTPkh?1==0
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R189
 !i10b 1
 R190
@@ -2554,10 +3602,18 @@ R168
 R178
 R179
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R224
+!i10b 1
+R215
+R225
+R226
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
 Euart_tb
+<<<<<<< HEAD
 <<<<<<< HEAD
 R82
 R14
@@ -2570,13 +3626,16 @@ l0
 L19
 =======
 R39
+=======
+R45
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 R15
 R1
 R2
 !i122 1153
 R3
-Z180 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd
-Z181 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd
+Z227 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd
+Z228 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd
 l0
 R25
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
@@ -2584,6 +3643,7 @@ VGPSfa4a]j6]JzU`L2jfMA0
 !s100 XelT9<ZlCQ[mG?7VYPYYV2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R7
 !i10b 1
@@ -2597,6 +3657,13 @@ Z182 !s108 1637556572.000000
 Z183 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd|
 Z184 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd|
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R224
+!i10b 1
+Z229 !s108 1637556572.000000
+Z230 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd|
+Z231 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd|
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12
@@ -2604,6 +3671,7 @@ Atb
 R14
 R1
 R2
+<<<<<<< HEAD
 <<<<<<< HEAD
 DEx4 work 7 uart_tb 0 22 GPSfa4a]j6]JzU`L2jfMA0
 l68
@@ -2619,19 +3687,28 @@ R195
 R196
 =======
 Z185 DEx4 work 7 uart_tb 0 22 GPSfa4a]j6]JzU`L2jfMA0
+=======
+DEx4 work 7 uart_tb 0 22 GPSfa4a]j6]JzU`L2jfMA0
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i122 1153
 l68
-Z186 L22 136
-Z187 VR2b^akFA3DHW]HA9KbaD:0
-Z188 !s100 kL?Z]^Nb@h4G[[7=CQ>SY2
+L22 136
+VR2b^akFA3DHW]HA9KbaD:0
+!s100 kL?Z]^Nb@h4G[[7=CQ>SY2
 R6
 32
-R177
+R224
 !i10b 1
+<<<<<<< HEAD
 R182
 R183
 R184
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
+=======
+R229
+R230
+R231
+>>>>>>> 00d4227... :bug: fixing errors in base tb
 !i113 1
 R11
 R12

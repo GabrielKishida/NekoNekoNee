@@ -63,7 +63,7 @@ BEGIN
     clock_in <= (NOT clock_in) AND keep_simulating AFTER clockPeriod/2;
 
     -- Conecta DUT (Device Under Test)
-    dut : uart_8N2
+    dut : timer
     PORT MAP
     (
             clock_in,
@@ -118,15 +118,15 @@ BEGIN
 
         configura_in <= '1';
 
-        WAIT UNTIL horario='1';
+        WAIT UNTIL disponibiliza_out='1';
 
         WAIT FOR 300*clockPeriod;
 
-        alimentado <= '1';
+        alimentado_in <= '1';
 
         WAIT FOR 20*clockPeriod;
 
-        alimentado <= '0';
+        alimentado_in <= '0';
 
 
 
