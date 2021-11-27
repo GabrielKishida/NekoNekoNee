@@ -118,47 +118,17 @@ BEGIN
 
         configura_in <= '1';
 
-        WAIT FOR *15*clockPeriod
+        WAIT UNTIL horario='1';
+
+        WAIT FOR 300*clockPeriod;
+
+        alimentado <= '1';
+
+        WAIT FOR 20*clockPeriod;
+
+        alimentado <= '0';
 
 
-        ---- dado de entrada da simulacao (caso de teste #1)
-        dados_ascii_8_in <= "00110101"; -- x35 = '5'	
-        WAIT FOR 20 * clockPeriod;
-
-        ---- acionamento da transmite_dado (inicio da transmissao)
-        transmite_dado_in <= '1';
-        WAIT UNTIL rising_edge(clock_in);
-        WAIT FOR 5 * clockPeriod; -- pulso transmite_dado com 5 periodos de clock
-        transmite_dado_in <= '0';
-
-        ---- espera final da transmissao (pulso pronto em 1)
-        WAIT UNTIL pronto_tx_out = '1';
-
-        ---- final do caso de teste 1
-
-        -- intervalo entre casos de teste
-        WAIT FOR 2000 * clockPeriod;
-
-        ---- dado de entrada da simulacao (caso de teste #2)
-        recebe_dado_in <= '1';
-        WAIT FOR 20 * clockPeriod;
-        recebe_dado_in <= '0';
-        dados_ascii_8_in <= "00101001"; -- x29 = ')'
-        WAIT FOR 100 * clockPeriod;
-
-        ---- acionamento da transmite_dado (inicio da transmissao)
-        transmite_dado_in <= '1';
-        WAIT UNTIL rising_edge(clock_in);
-        WAIT FOR 5 * clockPeriod; -- pulso transmite_dado com 5 periodos de clock
-        transmite_dado_in <= '0';
-
-        ---- espera final da transmissao (pulso pronto em 1)
-        WAIT UNTIL pronto_tx_out = '1';
-
-        ---- final do caso de teste 2
-
-        -- intervalo
-        WAIT FOR 2000 * clockPeriod;
 
         ---- final dos casos de teste da simulacao
         ASSERT false REPORT "Fim da simulacao" SEVERITY note;
