@@ -206,12 +206,12 @@ R27
 R11
 R12
 Econtador_alimentacao
-Z28 w1637977506
+Z28 w1638020391
 R14
 R15
 R1
 R2
-!i122 1214
+!i122 1404
 R3
 Z29 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_alimentacao.vhd
 Z30 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_alimentacao.vhd
@@ -221,9 +221,9 @@ VcRA0P0la4o=4IU6336Vf42
 !s100 G<SEgW1A6QQQ3i5kFm5fM0
 R6
 32
-Z31 !s110 1638018559
+Z31 !s110 1638021494
 !i10b 1
-Z32 !s108 1638018559.000000
+Z32 !s108 1638021494.000000
 Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_alimentacao.vhd|
 Z34 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_alimentacao.vhd|
 !i113 1
@@ -235,11 +235,11 @@ R15
 R1
 R2
 DEx4 work 20 contador_alimentacao 0 22 cRA0P0la4o=4IU6336Vf42
-!i122 1214
-l19
-L16 35
-VOb44^6[ZajKoH?CPaCDnA2
-!s100 g5zoc;Q8TO4kd_90i;cR^0
+!i122 1404
+l20
+L16 38
+VoT6D7[h4bjAoZUOa;^6^O0
+!s100 92HP[R;G`jdTQS23K74Hl1
 R6
 32
 R31
@@ -346,6 +346,7 @@ R1
 R2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R3
 Z29 8C:/Users/gabri/workspace/NekoNekoNee/vhd/contador_divisor.vhd
 Z30 FC:/Users/gabri/workspace/NekoNekoNee/vhd/contador_divisor.vhd
@@ -357,6 +358,9 @@ Z35 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_div
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 !i122 1215
+=======
+!i122 1405
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R3
 Z41 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd
 Z42 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd
@@ -368,6 +372,7 @@ VQ>o3INCW8kh4TIbE@DZJB0
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R7
 !i10b 1
 R8
@@ -375,6 +380,9 @@ Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gab
 Z32 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/contador_divisor.vhd|
 =======
 R31
+=======
+Z43 !s110 1638021495
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i10b 1
 <<<<<<< HEAD
 Z36 !s108 1637556560.000000
@@ -383,9 +391,14 @@ Z38 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contado
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R32
+<<<<<<< HEAD
 Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd|
 Z44 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd|
+Z45 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_divisor.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -397,18 +410,23 @@ R2
 DEx4 work 16 contador_divisor 0 22 Q>o3INCW8kh4TIbE@DZJB0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 !i122 1124
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 !i122 1215
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+!i122 1405
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l18
 L16
 VO[]8^9Ta?c`YQ_BHX?Pc<2
 !s100 On1[4TN==abo<d1AFji@:3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 R7
 !i10b 1
@@ -417,6 +435,9 @@ R31
 R32
 =======
 R31
+=======
+R43
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i10b 1
 <<<<<<< HEAD
 R36
@@ -425,13 +446,17 @@ R38
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R32
-R43
 R44
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R45
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Econtador_m
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z33 w1637261218
@@ -442,6 +467,9 @@ Z39 w1637468146
 =======
 Z45 w1637468146
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z46 w1637468146
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R14
 R1
 R2
@@ -453,6 +481,7 @@ Z35 FC:/Users/gabri/workspace/NekoNekoNee/vhd/contador_m.vhd
 !i122 1125
 R3
 <<<<<<< HEAD
+<<<<<<< HEAD
 Z40 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd
 Z41 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
@@ -460,12 +489,17 @@ Z41 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.v
 Z46 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd
 Z47 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z47 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd
+Z48 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L24
 V=?JFUJKk2VSeHh[eMfG2B3
 !s100 h6VknzPN<1CEMg;cE3VcS1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z36 !s110 1637563616
@@ -487,6 +521,13 @@ Z49 !s108 1637556560.000000
 Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd|
 Z51 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z49 !s110 1637556561
+!i10b 1
+Z50 !s108 1637556560.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd|
+Z52 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_m.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -508,6 +549,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R8
@@ -523,32 +565,36 @@ R44
 =======
 R48
 !i10b 1
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R49
+!i10b 1
 R50
 R51
+R52
 !i113 1
 R11
 R12
 Econtador_timer
-Z52 w1637971254
+Z53 w1638020809
 R15
 R1
 R2
-!i122 1216
+!i122 1406
 R3
-Z53 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd
-Z54 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd
+Z54 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd
+Z55 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd
 l0
 L23 1
 Vg@52D7fElkMVTmXb5YUZA0
 !s100 Q?]g<GPU]oaS:6cREiDK]1
 R6
 32
-Z55 !s110 1638018560
+R43
 !i10b 1
-R32
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd|
-Z57 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd|
+Z56 !s108 1638021495.000000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd|
+Z58 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/contador_timer.vhd|
 !i113 1
 R11
 R12
@@ -557,23 +603,27 @@ R15
 R1
 R2
 DEx4 work 14 contador_timer 0 22 g@52D7fElkMVTmXb5YUZA0
-!i122 1216
+!i122 1406
 l36
-L32 80
-V<LX1=g;SXm@NCKjJbiAo23
-!s100 DjQ:2bbL7cSmbORiXC7_73
+L32 79
+VGP:MTV?:<8?a=7X2Jcm=L1
+!s100 i_G]l2A<?SQF;mAIZdn=i1
 R6
 32
-R55
+R43
 !i10b 1
-R32
 R56
 R57
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R58
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Econtrole_despensa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z39 w1637558825
@@ -588,11 +638,15 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R15
 R1
 R2
 !i122 1126
 R3
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z45 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd
 Z46 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd
@@ -628,6 +682,21 @@ Z60 !s108 1637556561.000000
 Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd|
 Z62 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z59 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd
+Z60 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd
+l0
+L5 1
+V9Sl5g4<m`0jVcQP=YXReQ0
+!s100 O9[jFAZa6GP0z6PUXdV663
+R6
+32
+R49
+!i10b 1
+Z61 !s108 1637556561.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd|
+Z63 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -649,6 +718,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -663,15 +733,22 @@ R49
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R48
+=======
+R49
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i10b 1
-R60
 R61
 R62
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R63
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Econtrole_despensa_fd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z45 w1637560386
@@ -682,6 +759,9 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R14
 R1
 R2
@@ -693,6 +773,7 @@ Z47 FC:/Users/gabri/workspace/NekoNekoNee/vhd/controle_despensa_fd.vhd
 !i122 1127
 R3
 <<<<<<< HEAD
+<<<<<<< HEAD
 Z50 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd
 Z51 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
@@ -700,12 +781,17 @@ Z51 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_des
 Z63 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd
 Z64 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z64 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd
+Z65 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L6
 VNC7U90n1NFZcN<j_S1j7^3
 !s100 G@_fFF2efYmi6<4B<iiA23
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R36
@@ -727,6 +813,13 @@ R60
 Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd|
 Z66 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R49
+!i10b 1
+R61
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd|
+Z67 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_fd.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -748,6 +841,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -762,15 +856,22 @@ R53
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R48
+=======
+R49
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i10b 1
-R60
-R65
+R61
 R66
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R67
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Econtrole_despensa_tb
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z50 w1637560389
@@ -784,10 +885,14 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
 !i122 1128
 R3
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z54 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd
 Z55 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd
@@ -796,12 +901,17 @@ Z55 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_des
 Z67 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd
 Z68 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z68 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd
+Z69 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L4
 V2?CjQYM4RFRe3<Jnk6WJ31
 !s100 =^]U2S1_WnLDDahSCUzKT3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R36
@@ -823,6 +933,13 @@ R60
 Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd|
 Z71 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z70 !s110 1637556562
+!i10b 1
+R61
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd|
+Z72 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_tb.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -842,6 +959,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -858,13 +976,22 @@ R58
 R69
 !i10b 1
 R60
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R70
+!i10b 1
+R61
 R71
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R72
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Econtrole_despensa_uc
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z55 w1637560352
@@ -878,10 +1005,14 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
 !i122 1129
 R3
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z59 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd
 Z60 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd
@@ -890,12 +1021,17 @@ Z60 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_des
 Z72 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd
 Z73 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z73 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd
+Z74 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L6
 VX6AdoDUbCZ8;:<<JGk=I@1
 !s100 >@i^Fl3=1JG6<Gjc9?dF<2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R36
@@ -917,6 +1053,13 @@ Z74 !s108 1637556562.000000
 Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd|
 Z76 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R70
+!i10b 1
+Z75 !s108 1637556562.000000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd|
+Z77 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_despensa_uc.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -1060,6 +1203,7 @@ VCN4JGGXh5UoG6IY;loDMa1
 !s100 GFd<M<F@2n2<b;MSO?=^l1
 R6
 32
+<<<<<<< HEAD
 R73
 !i10b 1
 R74
@@ -1074,15 +1218,22 @@ R63
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R69
+=======
+R70
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i10b 1
-R74
 R75
 R76
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R77
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Econtrole_servo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R33
@@ -1097,11 +1248,15 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R15
 R1
 R2
 !i122 1130
 R3
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z64 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd
 Z65 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd
@@ -1110,12 +1265,17 @@ Z65 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_ser
 Z77 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd
 Z78 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z78 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd
+Z79 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L5
 VEV9=IJ<QmXPd31LJGE<YT3
 !s100 Vf?LkLY5LLDkl]R0lfFXC3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R36
@@ -1137,6 +1297,13 @@ R74
 Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd|
 Z80 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R70
+!i10b 1
+R75
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd|
+Z81 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -1157,6 +1324,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -1171,15 +1339,22 @@ R67
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R69
+=======
+R70
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i10b 1
-R74
-R79
+R75
 R80
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R81
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Econtrole_servo_tb
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z82 w1635024326
@@ -1193,10 +1368,14 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
 !i122 1131
 R3
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z68 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd
 Z69 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd
@@ -1205,12 +1384,17 @@ Z69 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_ser
 Z81 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd
 Z82 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z82 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd
+Z83 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L4
 VJB[6z7XQ@o;ZSD<n4>:6N3
 !s100 ]Pc9]o6O7WL0?4Y]k49DE1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R36
@@ -1232,6 +1416,13 @@ Z84 !s108 1637556563.000000
 Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd|
 Z86 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z84 !s110 1637556563
+!i10b 1
+Z85 !s108 1637556563.000000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd|
+Z87 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/controle_servo_tb.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -1251,6 +1442,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -1266,14 +1458,22 @@ R73
 =======
 R83
 !i10b 1
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R84
+!i10b 1
 R85
 R86
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R87
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Edeslocador_n
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R33
@@ -1287,10 +1487,14 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
 !i122 1132
 R3
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z74 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd
 Z75 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd
@@ -1300,6 +1504,10 @@ L22
 =======
 Z87 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd
 Z88 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd
+=======
+Z88 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd
+Z89 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 R37
 >>>>>>> 00d4227... :bug: fixing errors in base tb
@@ -1307,6 +1515,7 @@ V6lX5ljC2CU3mJZi]RNTA=0
 !s100 ?cz8GAOBiJNYXRA>8_<o@2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R36
@@ -1328,6 +1537,13 @@ R84
 Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd|
 Z90 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R84
+!i10b 1
+R85
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd|
+Z91 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/deslocador_n.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -1347,6 +1563,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R36
 !i10b 1
 R42
@@ -1362,31 +1579,35 @@ R77
 =======
 R83
 !i10b 1
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R84
-R89
+!i10b 1
+R85
 R90
+R91
 !i113 1
 R11
 R12
 Edivisor_timer
-Z91 w1637961084
+Z92 w1638018786
 R14
 R15
 R1
 R2
-!i122 1217
+!i122 1407
 R3
-Z92 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/divisor_timer.vhd
-Z93 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/divisor_timer.vhd
+Z93 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/divisor_timer.vhd
+Z94 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/divisor_timer.vhd
 l0
 L6 1
-VUJm?F@J84>`UmX[C8b><j3
-!s100 TVl[THT]KhCAkzEA?mXWV3
+Vl3JE<9ZQMnLkVSz193=AH0
+!s100 i]H6[FkL=8?[XBLKdN3hI2
 R6
 32
-R55
+R43
 !i10b 1
-Z94 !s108 1638018560.000000
+R56
 Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/divisor_timer.vhd|
 Z96 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/divisor_timer.vhd|
 !i113 1
@@ -1397,17 +1618,17 @@ R14
 R15
 R1
 R2
-DEx4 work 13 divisor_timer 0 22 UJm?F@J84>`UmX[C8b><j3
-!i122 1217
+DEx4 work 13 divisor_timer 0 22 l3JE<9ZQMnLkVSz193=AH0
+!i122 1407
 l18
 L15 42
-VNA]ED8m^1US_BF`docz4h0
-!s100 z:?<8H:DL8m45jk2K17Y31
+V0K`5DU;R=WEzik?6IeSK;0
+!s100 6:a4Y1D9eXH0]EYo70YB;1
 R6
 32
-R55
+R43
 !i10b 1
-R94
+R56
 R95
 R96
 >>>>>>> 00d4227... :bug: fixing errors in base tb
@@ -1415,6 +1636,7 @@ R96
 R11
 R12
 Eedge_detector
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z91 w1635024683
@@ -1430,6 +1652,9 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
 !i122 1133
@@ -1464,7 +1689,7 @@ Z83 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/edge_de
 =======
 Z100 !s110 1637556564
 !i10b 1
-R84
+R85
 Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/edge_detector.vhd|
 Z102 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/edge_detector.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
@@ -1502,7 +1727,7 @@ R83
 =======
 R100
 !i10b 1
-R84
+R85
 R101
 R102
 >>>>>>> 00d4227... :bug: fixing errors in base tb
@@ -1602,6 +1827,7 @@ R12
 Ehexa7seg
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Z102 w1635024132
 R1
 R2
@@ -1613,9 +1839,12 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
-!i122 1218
+!i122 1408
 R3
 <<<<<<< HEAD
 Z89 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd
@@ -1633,6 +1862,7 @@ VDcEZ9MaC9:I]UU^aY`Dnd3
 !s100 PkijLd]1n2B[9ZRE92gHE3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R94
@@ -1654,6 +1884,13 @@ R94
 Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd|
 Z111 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z110 !s110 1638021496
+!i10b 1
+Z111 !s108 1638021496.000000
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd|
+Z113 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/hexa7seg.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -1663,18 +1900,23 @@ R2
 DEx4 work 8 hexa7seg 0 22 DcEZ9MaC9:I]UU^aY`Dnd3
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 !i122 1135
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 !i122 1218
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+!i122 1408
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l30
 L29
 Vlm>zk87DUO_Vmo1eLODf^3
 !s100 ?9SgY[JS3VNifPKV`JO<e0
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R94
@@ -1693,13 +1935,22 @@ R92
 R55
 !i10b 1
 R94
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R110
+!i10b 1
 R111
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R112
+R113
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Einterface_hcsr04
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R82
@@ -1710,6 +1961,9 @@ Z93 w1637468182
 =======
 Z112 w1637468182
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z114 w1637468182
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R14
 R1
 R2
@@ -1721,6 +1975,7 @@ Z108 FC:/Users/gabri/workspace/NekoNekoNee/vhd/interface_hcsr04.vhd
 !i122 1136
 R3
 <<<<<<< HEAD
+<<<<<<< HEAD
 Z94 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd
 Z95 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
@@ -1728,12 +1983,17 @@ Z95 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hc
 Z113 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd
 Z114 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z115 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd
+Z116 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L6
 V1O8^f`X3ZED9f0>K`2BGN0
 !s100 QSiX2j8AH:BYG8:zBW>^o3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R94
@@ -1755,6 +2015,13 @@ Z116 !s108 1637556565.000000
 Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd|
 Z118 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z117 !s110 1637556565
+!i10b 1
+Z118 !s108 1637556565.000000
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd|
+Z120 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -1776,6 +2043,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R94
 !i10b 1
 R95
@@ -1792,13 +2060,22 @@ R99
 R115
 !i10b 1
 R116
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R117
+!i10b 1
 R118
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R119
+R120
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Einterface_hcsr04_fd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z111 w1635034548
@@ -1809,6 +2086,9 @@ R93
 =======
 R112
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R114
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R14
 R1
 R2
@@ -1820,6 +2100,7 @@ Z113 FC:/Users/gabri/workspace/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
 !i122 1137
 R3
 <<<<<<< HEAD
+<<<<<<< HEAD
 Z100 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
 Z101 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
@@ -1827,12 +2108,17 @@ Z101 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_h
 Z119 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
 Z120 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z121 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
+Z122 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L7
 Vk=1PXE>GRoKcY[N12TQ853
 !s100 aiW;Hjl9DE60aMYk<AoFj0
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R94
@@ -1854,6 +2140,13 @@ R116
 Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd|
 Z122 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R117
+!i10b 1
+R118
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd|
+Z124 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_fd.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -1874,6 +2167,7 @@ V_jXeJ>>T0TILY00>>cZ1S1
 R6
 32
 <<<<<<< HEAD
+<<<<<<< HEAD
 R94
 !i10b 1
 <<<<<<< HEAD
@@ -1892,10 +2186,18 @@ R116
 R121
 R122
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R117
+!i10b 1
+R118
+R123
+R124
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Einterface_hcsr04_uc
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R82
@@ -1909,10 +2211,14 @@ R93
 =======
 R112
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R114
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
 !i122 1138
 R3
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z104 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
 Z105 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
@@ -1921,12 +2227,17 @@ Z105 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_h
 Z123 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
 Z124 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z125 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
+Z126 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L5
 V4m0UbhSX4AhgU7<^kLe?23
 !s100 :4K3a6InPWE=mPTcCh<VM3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R94
@@ -1948,6 +2259,13 @@ Z126 !s108 1637556566.000000
 Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd|
 Z128 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z127 !s110 1637556566
+!i10b 1
+Z128 !s108 1637556566.000000
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd|
+Z130 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/interface_hcsr04_uc.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -1967,6 +2285,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R94
 !i10b 1
 R95
@@ -1983,9 +2302,17 @@ R109
 R125
 !i10b 1
 R126
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R127
+!i10b 1
 R128
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R129
+R130
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -2003,6 +2330,7 @@ Z121 FC:/Users/gabri/workspace/NekoNekoNee/vhd/medidor_largura.vhd
 !i122 1139
 R3
 <<<<<<< HEAD
+<<<<<<< HEAD
 Z110 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd
 Z111 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
@@ -2010,12 +2338,17 @@ Z111 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_lar
 Z129 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd
 Z130 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z131 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd
+Z132 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L6
 Vag;B4G3b_e1^_ld@Bol@I2
 !s100 @IoUL[knKU=Sja4=a2i_20
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R94
@@ -2037,6 +2370,13 @@ R126
 Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd|
 Z132 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R127
+!i10b 1
+R128
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd|
+Z134 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/medidor_largura.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -2058,6 +2398,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R94
 !i10b 1
 R95
@@ -2077,10 +2418,18 @@ R126
 R131
 R132
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R127
+!i10b 1
+R128
+R133
+R134
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Emux_4x1_n
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R33
@@ -2206,22 +2555,38 @@ R12
 Eneko_neko_nee_tb
 Z133 w1637563183
 R14
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
 R3
+<<<<<<< HEAD
 Z134 8C:/Users/gabri/workspace/NekoNekoNee/vhd/neko_neko_nee_tb.vhd
 Z135 FC:/Users/gabri/workspace/NekoNekoNee/vhd/neko_neko_nee_tb.vhd
+=======
+Z135 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd
+Z136 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L5
 V9eUe^K]ncoDl_Pd9acJQU3
 !s100 Zi661hkF>a8zmY:@QTbN`1
 R6
 32
+<<<<<<< HEAD
 R94
 !i10b 1
 R95
 Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/gabri/workspace/NekoNekoNee/vhd/neko_neko_nee_tb.vhd|
 Z137 !s107 C:/Users/gabri/workspace/NekoNekoNee/vhd/neko_neko_nee_tb.vhd|
+=======
+Z137 !s110 1637556567
+!i10b 1
+R128
+Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd|
+Z139 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/mux_4x1_n.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -2236,6 +2601,7 @@ V]mz3RPEj6?SzPS27g22PM0
 !s100 oUiSg=dT5U<`iE_B?ObOa2
 R6
 32
+<<<<<<< HEAD
 R94
 !i10b 1
 R95
@@ -2255,10 +2621,18 @@ R126
 R136
 R137
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R137
+!i10b 1
+R128
+R138
+R139
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Eneko_uc
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R0
@@ -2272,10 +2646,14 @@ Z119 w1637556388
 =======
 Z138 w1637556388
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z140 w1637556388
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
 !i122 1141
 R3
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z120 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd
 Z121 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd
@@ -2284,12 +2662,17 @@ Z121 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd
 Z139 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd
 Z140 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z141 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd
+Z142 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L5
 V@elf;0BXhNCMam21z3ZhD1
 !s100 8P6Sg?194m`G2zGcg4hJ52
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z140 !s110 1637555103
@@ -2311,6 +2694,13 @@ Z141 !s108 1637556567.000000
 Z142 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd|
 Z143 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R137
+!i10b 1
+Z143 !s108 1637556567.000000
+Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd|
+Z145 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/neko_uc.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -2330,6 +2720,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R140
 !i10b 1
 R141
@@ -2344,15 +2735,22 @@ R124
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R135
+=======
+R137
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i10b 1
-R141
-R142
 R143
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R144
+R145
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Eregistrador_2bits
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R33
@@ -2366,10 +2764,14 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
 !i122 1142
 R3
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z125 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd
 Z126 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd
@@ -2378,12 +2780,17 @@ Z126 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador
 Z144 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd
 Z145 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z146 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd
+Z147 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L4
 VNK2A0l37A1PEj0nc2AKZ11
 !s100 P8f4gFa^S2MA>Xd]fJUT_1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z146 !s110 1637563618
@@ -2405,6 +2812,13 @@ R141
 Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd|
 Z148 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z148 !s110 1637556568
+!i10b 1
+R143
+Z149 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd|
+Z150 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_2bits.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -2422,6 +2836,7 @@ VF4k9R80ON[12_zJk6`g]F3
 !s100 fNP>K`DIl=83E68CWj;<10
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -2443,6 +2858,13 @@ R141
 R147
 R148
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R148
+!i10b 1
+R143
+R149
+R150
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -2450,6 +2872,7 @@ Eregistrador_n
 R0
 R1
 R2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R3
@@ -2465,9 +2888,12 @@ l0
 L22
 =======
 !i122 1219
+=======
+!i122 1409
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R3
-Z149 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd
-Z150 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd
+Z151 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd
+Z152 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd
 l0
 R37
 >>>>>>> 00d4227... :bug: fixing errors in base tb
@@ -2475,6 +2901,7 @@ VX2?jS9K[YhL1SR6K6_?T[2
 !s100 2:KGQ3VJh55Dh8[E47b6_2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -2496,6 +2923,13 @@ R94
 Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd|
 Z153 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R110
+!i10b 1
+R111
+Z153 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd|
+Z154 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/registrador_n.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -2505,18 +2939,23 @@ R2
 DEx4 work 13 registrador_n 0 22 X2?jS9K[YhL1SR6K6_?T[2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 !i122 1143
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 !i122 1219
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+!i122 1409
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l37
 L35
 V>>E58elNLBlV917fPPk>i2
 !s100 9HEogJ?JPL<Z`6]GeiMC^2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -2533,15 +2972,22 @@ R134
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R151
+=======
+R110
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i10b 1
-R94
-R152
+R111
 R153
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R154
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Erx_serial_8n2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R102
@@ -2552,6 +2998,9 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R14
 R1
 R2
@@ -2564,19 +3013,24 @@ L18
 =======
 !i122 1144
 R3
-Z154 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd
-Z155 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd
+Z155 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd
+Z156 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd
 l0
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z137 L18 1
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 Z156 L18 1
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z157 L18 1
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 VD^WnfB3=Wnf:UA?6GliC^0
 !s100 Ye7N;D=fjTMB>H40?`k?S0
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -2598,6 +3052,13 @@ Z157 !s108 1637556568.000000
 Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd|
 Z159 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R148
+!i10b 1
+Z158 !s108 1637556568.000000
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd|
+Z160 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -2608,12 +3069,16 @@ R1
 R2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Z158 DEx4 work 13 rx_serial_8n2 0 22 D^WnfB3=Wnf:UA?6GliC^0
 =======
 Z140 DEx4 work 13 rx_serial_8n2 0 22 D^WnfB3=Wnf:UA?6GliC^0
 =======
 Z160 DEx4 work 13 rx_serial_8n2 0 22 D^WnfB3=Wnf:UA?6GliC^0
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z161 DEx4 work 13 rx_serial_8n2 0 22 D^WnfB3=Wnf:UA?6GliC^0
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i122 1144
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 l70
@@ -2622,6 +3087,7 @@ VJe3O6g7HdD@P[Q7JFo0b70
 !s100 P5^8Hl99Ze649OYN?^h`A3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -2638,15 +3104,22 @@ R139
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R146
+=======
+R148
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i10b 1
-R157
 R158
 R159
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R160
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Erx_serial_8n2_fd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R102
@@ -2657,6 +3130,9 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R14
 R1
 R2
@@ -2669,8 +3145,8 @@ L20
 =======
 !i122 1145
 R3
-Z161 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd
-Z162 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd
+Z162 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd
+Z163 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd
 l0
 <<<<<<< HEAD
 R80
@@ -2682,6 +3158,7 @@ VnQBA`<a2Qk5=FzEgKETc10
 !s100 ]KK_:^RaR`z2YQPemVKV61
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -2703,6 +3180,13 @@ Z164 !s108 1637556569.000000
 Z165 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd|
 Z166 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z164 !s110 1637556569
+!i10b 1
+Z165 !s108 1637556569.000000
+Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd|
+Z167 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_fd.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -2724,6 +3208,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -2739,14 +3224,22 @@ R146
 =======
 R163
 !i10b 1
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R164
+!i10b 1
 R165
 R166
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R167
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Erx_serial_tb
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R82
@@ -2763,13 +3256,16 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R15
 R1
 R2
 !i122 1147
 R3
-Z167 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd
-Z168 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd
+Z168 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd
+Z169 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd
 l0
 <<<<<<< HEAD
 R80
@@ -2781,6 +3277,7 @@ VN=ET<MDOY;RKfAmV9mY]k0
 !s100 ^UFXlok4neO9zCRn;eERJ1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -2802,6 +3299,13 @@ R164
 Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd|
 Z171 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z170 !s110 1637556570
+!i10b 1
+R165
+Z171 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd|
+Z172 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_tb.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -2809,6 +3313,7 @@ Atb
 R13
 R158
 R14
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R1
@@ -2819,6 +3324,9 @@ R140
 =======
 R160
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R161
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R15
 R1
 R2
@@ -2831,6 +3339,7 @@ Vhdh?[Z]mEQ[b^chPcRD3^1
 !s100 _]X<nk0YQ?FF29ZHH]Y:a3
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -2849,13 +3358,22 @@ R151
 R169
 !i10b 1
 R164
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R170
+!i10b 1
+R165
 R171
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R172
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Erx_serial_tick_uc
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R102
@@ -2871,12 +3389,15 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
 !i122 1146
 R3
-Z172 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd
-Z173 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd
+Z173 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd
+Z174 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd
 l0
 <<<<<<< HEAD
 R80
@@ -2888,6 +3409,7 @@ Vlkf4^c0Gz0LQB024LW2C;0
 !s100 i5DMSkh73YfD40d8FN8?o2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -2909,6 +3431,13 @@ R164
 Z174 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd|
 Z175 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R164
+!i10b 1
+R165
+Z175 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd|
+Z176 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/rx_serial_8N2_tick_uc.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -2928,6 +3457,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -2943,33 +3473,37 @@ R155
 =======
 R163
 !i10b 1
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R164
-R174
+!i10b 1
+R165
 R175
+R176
 !i113 1
 R11
 R12
 Etimer
-Z176 w1637986077
+Z177 w1638021011
 R14
 R15
 R1
 R2
-!i122 1220
+!i122 1410
 R3
-Z177 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd
-Z178 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd
+Z178 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd
+Z179 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd
 l0
 L7 1
-VeSg_oQBQH03EC4mh6ibbe2
-!s100 FHcWAjjLLN_=3OBzkJkf^1
+V^fj;Rd9dCVLmTHLUBJVCQ3
+!s100 ]hzTWf>^@BVnV@[SFP:Ri3
 R6
 32
-R151
+Z180 !s110 1638021497
 !i10b 1
-Z179 !s108 1638018561.000000
-Z180 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd|
-Z181 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd|
+R111
+Z181 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd|
+Z182 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer.vhd|
 !i113 1
 R11
 R12
@@ -2978,43 +3512,43 @@ R14
 R15
 R1
 R2
-DEx4 work 5 timer 0 22 eSg_oQBQH03EC4mh6ibbe2
-!i122 1220
-l63
-L23 121
-V<ZP`^T7C6lbSIoI=D2KVj3
-!s100 AdId9TUTYEYm6fT2BSYZV2
+DEx4 work 5 timer 0 22 ^fj;Rd9dCVLmTHLUBJVCQ3
+!i122 1410
+l65
+L24 124
+VCeZ`><PF0NQin>o9;1>YJ2
+!s100 4JEDPfYzG3hhnH=G:aKJ`2
 R6
 32
-R151
-!i10b 1
-R179
 R180
+!i10b 1
+R111
 R181
+R182
 !i113 1
 R11
 R12
 Etimer_fd
-Z182 w1637979165
+Z183 w1638020926
 R14
 R15
 R1
 R2
-!i122 1221
+!i122 1411
 R3
-Z183 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd
-Z184 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd
+Z184 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd
+Z185 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd
 l0
 L6 1
-VM]m0W0d^ZYLo?;7IfiO]<2
-!s100 kghV0`bEIlej^^=C@D9?42
+VAJf3LTllIZAYJ4KW`0UBI1
+!s100 iD>77;m71X4J4gM4oIT?C2
 R6
 32
-R151
+R180
 !i10b 1
-R179
-Z185 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd|
-Z186 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd|
+Z186 !s108 1638021497.000000
+Z187 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd|
+Z188 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_fd.vhd|
 !i113 1
 R11
 R12
@@ -3023,42 +3557,42 @@ R14
 R15
 R1
 R2
-DEx4 work 8 timer_fd 0 22 M]m0W0d^ZYLo?;7IfiO]<2
-!i122 1221
-l61
-L16 111
-VaIzLgfHd[P>5GG4X0PP;g2
-!s100 eEcb:@[ge85BRCYY9G[lN0
+DEx4 work 8 timer_fd 0 22 AJf3LTllIZAYJ4KW`0UBI1
+!i122 1411
+l62
+L17 112
+VRYGh`e2U`T1V<IUJJ8RaY3
+!s100 5R?W64;DB5FP5`XXF@OmO3
 R6
 32
-R151
+R180
 !i10b 1
-R179
-R185
 R186
+R187
+R188
 !i113 1
 R11
 R12
 Etimer_tb
-Z187 w1638018555
+Z189 w1638021456
 R15
 R1
 R2
-!i122 1222
+!i122 1412
 R3
-Z188 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd
-Z189 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd
+Z190 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd
+Z191 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd
 l0
 R25
 V0RD_hM7iS>]I8G>ng33oP2
 !s100 Xg0_OHeYTIdG3?>bQ;ZMk2
 R6
 32
-Z190 !s110 1638018562
+R180
 !i10b 1
-R179
-Z191 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd|
-Z192 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd|
+R186
+Z192 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd|
+Z193 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_tb.vhd|
 !i113 1
 R11
 R12
@@ -3067,64 +3601,68 @@ R15
 R1
 R2
 DEx4 work 8 timer_tb 0 22 0RD_hM7iS>]I8G>ng33oP2
-!i122 1222
-l59
-L22 118
-VdzWkVL:LVZTg:KiXE[]YH2
-!s100 RA5Y1SkJkB1h[_oi8c;<D2
+!i122 1412
+l61
+L22 124
+V=K>;6=8H2KR_J4>jWgU:63
+!s100 49^gAFiRL7UAB5c]0aOm@3
 R6
 32
-R190
+R180
 !i10b 1
-R179
-R191
+R186
 R192
+R193
 !i113 1
 R11
 R12
 Etimer_uc
-Z193 w1637978127
+Z194 w1637978127
 R1
 R2
-!i122 1223
+!i122 1413
 R3
-Z194 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd
-Z195 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd
+Z195 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd
+Z196 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd
 l0
 L5 1
 VdHDR5;Q]c51e:`UhS;SGm2
 !s100 3]1Nf8TgYBAf9Fd9hILe?3
 R6
 32
-R190
+Z197 !s110 1638021498
 !i10b 1
-Z196 !s108 1638018562.000000
-Z197 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd|
-Z198 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd|
+R186
+Z198 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd|
+Z199 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/timer_uc.vhd|
 !i113 1
 R11
 R12
 Atimer_uc_arch
 R1
 R2
-Z199 DEx4 work 8 timer_uc 0 22 dHDR5;Q]c51e:`UhS;SGm2
-!i122 1223
+Z200 DEx4 work 8 timer_uc 0 22 dHDR5;Q]c51e:`UhS;SGm2
+!i122 1413
 l32
-Z200 L20 80
-Z201 VOH8T;bfoU04`Z0@5NF3iA2
-Z202 !s100 WSLhOjdJ:=T4TY:hjXmJ^3
+Z201 L20 80
+Z202 VOH8T;bfoU04`Z0@5NF3iA2
+Z203 !s100 WSLhOjdJ:=T4TY:hjXmJ^3
 R6
 32
-R190
-!i10b 1
-R196
 R197
+!i10b 1
+R186
 R198
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R199
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Etx_serial_8n2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R102
@@ -3135,6 +3673,9 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R14
 R1
 R2
@@ -3146,6 +3687,7 @@ Z172 FC:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2.vhd
 !i122 1148
 R3
 <<<<<<< HEAD
+<<<<<<< HEAD
 Z156 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd
 Z157 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
@@ -3153,12 +3695,17 @@ Z157 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8
 Z203 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd
 Z204 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z204 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd
+Z205 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L6
 VU>[XB0HU>:6Cz<8mSImiB0
 !s100 W`BIG>g:XIYC2c7Ci]X651
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -3180,6 +3727,13 @@ Z205 !s108 1637556570.000000
 Z206 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd|
 Z207 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R170
+!i10b 1
+Z206 !s108 1637556570.000000
+Z207 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd|
+Z208 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -3201,6 +3755,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -3215,15 +3770,22 @@ R160
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R169
+=======
+R170
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i10b 1
-R205
 R206
 R207
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R208
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Etx_serial_8n2_fd
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R102
@@ -3234,6 +3796,9 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R14
 R1
 R2
@@ -3245,6 +3810,7 @@ Z176 FC:/Users/gabri/workspace/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
 !i122 1149
 R3
 <<<<<<< HEAD
+<<<<<<< HEAD
 Z161 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
 Z162 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
@@ -3253,6 +3819,10 @@ L22
 =======
 Z208 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
 Z209 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
+=======
+Z209 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
+Z210 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 R37
 >>>>>>> 00d4227... :bug: fixing errors in base tb
@@ -3260,6 +3830,7 @@ ViT7ZX]0P1:DlP]aahX62W2
 !s100 8<k5DmCO[DMQQ>_X;G3840
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -3281,6 +3852,13 @@ R205
 Z210 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd|
 Z211 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R170
+!i10b 1
+R206
+Z211 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd|
+Z212 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_8N2_fd.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -3302,6 +3880,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -3316,15 +3895,22 @@ R164
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R169
+=======
+R170
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i10b 1
-R205
-R210
+R206
 R211
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R212
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Etx_serial_tb
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R82
@@ -3341,13 +3927,16 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R15
 R1
 R2
 !i122 1150
 R3
-Z212 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd
-Z213 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd
+Z213 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd
+Z214 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd
 l0
 R25
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
@@ -3355,6 +3944,7 @@ Vlk@R3OL?6BSEfAH=lWUgH2
 !s100 5e48NkQkoKhZLm;kF9;II0
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -3376,6 +3966,13 @@ Z215 !s108 1637556571.000000
 Z216 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd|
 Z217 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z215 !s110 1637556571
+!i10b 1
+Z216 !s108 1637556571.000000
+Z217 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd|
+Z218 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tb.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -3396,6 +3993,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -3411,14 +4009,22 @@ R170
 =======
 R214
 !i10b 1
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R215
+!i10b 1
 R216
 R217
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R218
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Etx_serial_tick_uc
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R102
@@ -3432,10 +4038,14 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R1
 R2
 !i122 1151
 R3
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z171 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
 Z172 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
@@ -3444,12 +4054,17 @@ Z172 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_t
 Z218 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
 Z219 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z219 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
+Z220 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 l0
 L21
 VTUzi;P^U6=`b7ef3oKT1P3
 !s100 8i2PjSek?RhjX5:2_Fdie0
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R146
@@ -3471,6 +4086,13 @@ R215
 Z220 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd|
 Z221 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R215
+!i10b 1
+R216
+Z221 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd|
+Z222 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/tx_serial_tick_uc.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -3490,6 +4112,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R146
 !i10b 1
 R147
@@ -3505,14 +4128,22 @@ R174
 =======
 R214
 !i10b 1
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R215
-R220
+!i10b 1
+R216
 R221
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R222
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Euart_8n2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R102
@@ -3523,6 +4154,9 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R14
 R1
 R2
@@ -3535,19 +4169,24 @@ L18
 =======
 !i122 1152
 R3
-Z222 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd
-Z223 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd
+Z223 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd
+Z224 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd
 l0
+<<<<<<< HEAD
 <<<<<<< HEAD
 R137
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
 =======
 R156
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R157
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 VHQZm`_kFk?<O=ZZBj1BZQ3
 !s100 7D6L]`LR`o>7UQn8mI@Nm1
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Z189 !s110 1637563619
@@ -3569,6 +4208,13 @@ R215
 Z225 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd|
 Z226 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+Z225 !s110 1637556572
+!i10b 1
+R216
+Z226 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd|
+Z227 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_8N2.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -3590,6 +4236,7 @@ R6
 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 R189
 !i10b 1
 R190
@@ -3606,13 +4253,22 @@ R179
 R224
 !i10b 1
 R215
+=======
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R225
+!i10b 1
+R216
 R226
+<<<<<<< HEAD
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R227
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
 Euart_tb
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R82
@@ -3629,13 +4285,16 @@ R39
 =======
 R45
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R46
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 R15
 R1
 R2
 !i122 1153
 R3
-Z227 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd
-Z228 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd
+Z228 8C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd
+Z229 FC:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd
 l0
 R25
 >>>>>>> 9bb4dd6... :sparkle: introducing circuit and beginning to write testing
@@ -3643,6 +4302,7 @@ VGPSfa4a]j6]JzU`L2jfMA0
 !s100 XelT9<ZlCQ[mG?7VYPYYV2
 R6
 32
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 R7
@@ -3664,6 +4324,13 @@ Z229 !s108 1637556572.000000
 Z230 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd|
 Z231 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd|
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R225
+!i10b 1
+Z230 !s108 1637556572.000000
+Z231 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd|
+Z232 !s107 C:/Users/guazco/Documents/labdig2/neko/Neko_uc/NekoNekoNee/vhd/uart_tb.vhd|
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12
@@ -3697,8 +4364,9 @@ VR2b^akFA3DHW]HA9KbaD:0
 !s100 kL?Z]^Nb@h4G[[7=CQ>SY2
 R6
 32
-R224
+R225
 !i10b 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 R182
 R183
@@ -3709,6 +4377,11 @@ R229
 R230
 R231
 >>>>>>> 00d4227... :bug: fixing errors in base tb
+=======
+R230
+R231
+R232
+>>>>>>> 3095b02... :bug: contador_alimentador consertado e configura_in tbm
 !i113 1
 R11
 R12

@@ -14,11 +14,14 @@ ENTITY contador_alimentacao IS
 END ENTITY contador_alimentacao;
 
 ARCHITECTURE comportamental OF contador_alimentacao IS
-    SIGNAL IQ : INTEGER RANGE 0 TO 2941 - 1;
     SIGNAL teto_int : INTEGER;
+    SIGNAL cont_max : INTEGER := teto_int*360000;
+    SIGNAL IQ : INTEGER;
 BEGIN
 
     teto_int <= to_integer(unsigned(teto));
+    cont_max <= teto_int*360000;
+
     PROCESS (clock, zera_as, zera_s, conta, IQ)
     BEGIN
         IF zera_as = '1' THEN
@@ -27,7 +30,7 @@ BEGIN
             IF zera_s = '1' THEN
                 IQ <= 0;
             ELSIF conta = '1' THEN
-                IF IQ = teto_int - 1 THEN
+                IF IQ = cont_max - 1 THEN
                     IQ <= 0;
                 ELSE
                     IQ <= IQ + 1;
@@ -38,7 +41,7 @@ BEGIN
         END IF;
 
         -- fim de contagem    
-        IF IQ = teto_int - 1 THEN
+        IF IQ = cont_max - 1 THEN
             fim <= '1';
         ELSE
             fim <= '0';

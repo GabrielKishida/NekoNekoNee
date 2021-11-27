@@ -9,7 +9,8 @@ ENTITY timer_fd IS
       periodo: IN STD_LOGIC_VECTOR (3 downto 0);
 		i_dig5, i_dig4, i_dig3, i_dig2 : IN STD_LOGIC_VECTOR(3 DOWNTO 0); 
       dig5, dig4, dig3, dig2, dig1, dig0 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
-		horario: OUT STD_LOGIC
+		horario: OUT STD_LOGIC;
+        db_segundo: OUT STD_LOGIC
 	);
 END ENTITY;
 
@@ -40,7 +41,7 @@ ARCHITECTURE arch OF timer_fd IS
 	COMPONENT divisor_timer
     PORT (
         clock, zera_as, zera_s, conta : IN STD_LOGIC;
-        Q : OUT STD_LOGIC_VECTOR (NATURAL(ceil(log2(real(50000000)))) - 1 DOWNTO 0);
+        Q : OUT STD_LOGIC_VECTOR (NATURAL(ceil(log2(real(100)))) - 1 DOWNTO 0);
         fim, meio : OUT STD_LOGIC
     );
     END COMPONENT;
@@ -122,5 +123,6 @@ BEGIN
 	 s_periodo <= periodo;
 	 s_conta_alimentacao <= conta_alimentacao;
     s_reg_periodo <= s_reg_atualiza OR s_configura;
+    db_segundo <= s_segundo;
 
 END ARCHITECTURE;

@@ -34,7 +34,8 @@ ARCHITECTURE tb OF timer_tb IS
             db_dig5, db_dig4, db_dig3, db_dig2, db_dig1, db_dig0 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
             disponibiliza : OUT STD_LOGIC;
             salva : OUT STD_LOGIC;
-            db_estado : OUT STD_LOGIC_VECTOR (6 DOWNTO 0)
+            db_estado : OUT STD_LOGIC_VECTOR (6 DOWNTO 0);
+            db_segundo: OUT STD_LOGIC
         );
     END COMPONENT;
 
@@ -51,6 +52,7 @@ ARCHITECTURE tb OF timer_tb IS
     SIGNAL disponibiliza_out : STD_LOGIC := '0';
     SIGNAL salva_out : STD_LOGIC := '0';
     SIGNAL db_estado_out : STD_LOGIC_VECTOR(6 downto 0) := "0000000";
+    SIGNAL db_segundo_out : STD_LOGIC := '0';
 
     -- Configurações do clock
     SIGNAL keep_simulating : STD_LOGIC := '0'; -- delimita o tempo de geração do clock
@@ -89,8 +91,10 @@ BEGIN
             db_dig0_out, 
             disponibiliza_out,
             salva_out, 
-            db_estado_out 
+            db_estado_out,
+            db_segundo_out
     );
+
 
     -- geracao dos sinais de entrada (estimulos)
     stimulus : PROCESS IS
@@ -117,6 +121,8 @@ BEGIN
         WAIT FOR 10*clockPeriod;
 
         configura_in <= '1';
+        WAIT FOR clockPeriod;
+        configura_in <= '0';
 
         WAIT UNTIL disponibiliza_out='1';
 
@@ -128,7 +134,7 @@ BEGIN
 
         alimentado_in <= '0';
 
-
+	WAIT FOR 200*clockPeriod;
 
         ---- final dos casos de teste da simulacao
         ASSERT false REPORT "Fim da simulacao" SEVERITY note;

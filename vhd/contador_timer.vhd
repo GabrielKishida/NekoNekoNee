@@ -52,7 +52,6 @@ BEGIN
                 s_dig3 <= unsigned(i_dig3);
                 s_dig4 <= unsigned(i_dig4);
                 s_dig5 <= unsigned(i_dig5);
-
             ELSIF (conta = '1') THEN
                 IF (s_dig0="0000" AND s_dig1="0000" AND s_dig2="0000" AND s_dig3="0000" AND s_dig4="0100" AND s_dig5="0010") THEN
                     s_dig0 <= "0000";
