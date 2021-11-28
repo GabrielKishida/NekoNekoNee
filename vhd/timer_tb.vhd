@@ -1,17 +1,3 @@
-------------------------------------------------------------------
--- Arquivo   : tx_serial_tb.vhd
--- Projeto   : Experiencia 2 - Transmissao Serial Assincrona
-------------------------------------------------------------------
--- Descricao : circuito da experiencia 2 
---             > modelo de testbench para simulacao do circuito
---             > de transmissao serial assincrona
---             > 
-------------------------------------------------------------------
--- Revisoes  :
---     Data        Versao  Autor             Descricao
---     09/09/2021  1.0     Edson Midorikawa  versao inicial
-------------------------------------------------------------------
---
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;

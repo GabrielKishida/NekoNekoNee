@@ -9,8 +9,9 @@ ENTITY neko_neko_nee IS
 		reset : IN STD_LOGIC;
 		echo : IN STD_LOGIC;
 		configura : IN STD_LOGIC;
+		mais : IN STD_LOGIC;
 		tamanho_porcao : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
-		periodo : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+		periodo : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
 		modo_display : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
 
 		trigger : OUT STD_LOGIC;
@@ -80,9 +81,9 @@ ARCHITECTURE neko_neko_nee_arch OF neko_neko_nee IS
 			clock : IN STD_LOGIC;
 			reset : IN STD_LOGIC;
 			configura : IN STD_LOGIC;
+			mais : IN STD_LOGIC;
 			alimentado : IN STD_LOGIC;
 			periodo : IN STD_LOGIC_VECTOR (3 DOWNTO 0);
-			i_dig5, i_dig4, i_dig3, i_dig2 : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
 			dig5, dig4, dig3, dig2, dig1, dig0 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
 			db_dig5, db_dig4, db_dig3, db_dig2, db_dig1, db_dig0 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
 			disponivel : OUT STD_LOGIC;
@@ -147,6 +148,7 @@ ARCHITECTURE neko_neko_nee_arch OF neko_neko_nee IS
 	SIGNAL s_db_dig5, s_db_dig4, s_db_dig3, s_db_dig2, s_db_dig1, s_db_dig0 : STD_LOGIC_VECTOR (6 DOWNTO 0);
 	SIGNAL s_horas : STD_LOGIC_VECTOR (7 DOWNTO 0);
 	SIGNAL s_minutos : STD_LOGIC_VECTOR (7 DOWNTO 0);
+	SIGNAL s_periodo : STD_LOGIC_VECTOR (3 DOWNTO 0);
 
 	SIGNAL s_medida : STD_LOGIC_VECTOR (11 DOWNTO 0);
 	SIGNAL s_db_posicao : STD_LOGIC_VECTOR(2 DOWNTO 0);
@@ -158,7 +160,7 @@ ARCHITECTURE neko_neko_nee_arch OF neko_neko_nee IS
 	SIGNAL s_estado_despensa : STD_LOGIC_VECTOR (1 DOWNTO 0);
 
 BEGIN
-
+	s_periodo <= '0' & periodo;
 	s_horas <= s_dig_hora_1 & s_dig_hora_0;
 	s_minutos <= s_dig_min_1 & s_dig_min_0;
 
@@ -181,11 +183,8 @@ BEGIN
 		reset => reset,
 		configura => configura,
 		alimentado => s_abre,
-		periodo => periodo,
-		i_dig5 => "0000",
-		i_dig4 => "0000",
-		i_dig3 => "0000",
-		i_dig2 => "0000",
+		periodo => s_periodo,
+		mais => mais,
 		dig5 => s_dig_hora_1,
 		dig4 => s_dig_hora_0,
 		dig3 => s_dig_min_1,
