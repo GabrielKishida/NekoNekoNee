@@ -23,7 +23,7 @@ USE ieee.numeric_std.ALL;
 ENTITY contador_timer IS
     PORT (
         clock, zera, conta, registra : IN STD_LOGIC;
-        i_dig5, i_dig4, i_dig3, i_dig2 : IN STD_LOGIC_VECTOR(3 DOWNTO 0); 
+        i_dig5, i_dig4, i_dig3, i_dig2 : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
         dig5, dig4, dig3, dig2, dig1, dig0 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
         fim : OUT STD_LOGIC
     );
@@ -53,7 +53,7 @@ BEGIN
                 s_dig4 <= unsigned(i_dig4);
                 s_dig5 <= unsigned(i_dig5);
             ELSIF (conta = '1') THEN
-                IF (s_dig0="0000" AND s_dig1="0000" AND s_dig2="0000" AND s_dig3="0000" AND s_dig4="0100" AND s_dig5="0010") THEN
+                IF (s_dig0 = "0000" AND s_dig1 = "0000" AND s_dig2 = "0000" AND s_dig3 = "0000" AND s_dig4 = "0100" AND s_dig5 = "0010") THEN
                     s_dig0 <= "0000";
                     s_dig1 <= "0000";
                     s_dig2 <= "0000";
@@ -96,7 +96,7 @@ BEGIN
     END PROCESS;
 
     -- fim de contagem (comando VHDL when else)
-    fim <= '1' WHEN s_dig0="0000" AND s_dig1="0000" AND s_dig2="0000" AND s_dig3="0000" AND s_dig4="0100" AND s_dig5="0010" ELSE
+    fim <= '1' WHEN s_dig0 = "0000" AND s_dig1 = "0000" AND s_dig2 = "0000" AND s_dig3 = "0000" AND s_dig4 = "0100" AND s_dig5 = "0010" ELSE
         '0';
 
     -- saidas
