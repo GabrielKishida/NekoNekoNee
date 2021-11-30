@@ -7,13 +7,13 @@ ENTITY divisor_timer IS
 
     PORT (
         clock, zera_as, zera_s, conta : IN STD_LOGIC;
-        Q : OUT STD_LOGIC_VECTOR (NATURAL(ceil(log2(real(100)))) - 1 DOWNTO 0);
+        Q : OUT STD_LOGIC_VECTOR (NATURAL(ceil(log2(real(50000000)))) - 1 DOWNTO 0);
         fim, meio : OUT STD_LOGIC
     );
 END ENTITY divisor_timer;
 
 ARCHITECTURE comportamental OF divisor_timer IS
-    CONSTANT SEGUNDO : INTEGER := 100;
+    CONSTANT SEGUNDO : INTEGER := 50000000;
     SIGNAL IQ : INTEGER RANGE 0 TO SEGUNDO - 1;
 BEGIN
 

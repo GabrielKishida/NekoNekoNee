@@ -1,0 +1,31 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY mux_8x1_8 IS
+    PORT (
+        D0 : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        D1 : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        D2 : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        D3 : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        D4 : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        D5 : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        D6 : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        D7 : IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+        SEL : IN STD_LOGIC_VECTOR (2 DOWNTO 0);
+        MUX_OUT : OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
+    );
+END ENTITY;
+
+ARCHITECTURE behav OF mux_8x1_8 IS
+BEGIN
+    MUX_OUT <=
+        D0 WHEN (SEL = "000") ELSE
+        D1 WHEN (SEL = "001") ELSE
+        D2 WHEN (SEL = "010") ELSE
+        D3 WHEN (SEL = "011") ELSE
+        D4 WHEN (SEL = "100") ELSE
+        D5 WHEN (SEL = "101") ELSE
+        D6 WHEN (SEL = "110") ELSE
+        D7 WHEN (SEL = "111") ELSE
+        "00000000";
+END behav;

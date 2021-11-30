@@ -15,12 +15,12 @@ END ENTITY contador_alimentacao;
 
 ARCHITECTURE comportamental OF contador_alimentacao IS
     SIGNAL teto_int : INTEGER;
-    SIGNAL cont_max : INTEGER := teto_int*360000;
+    SIGNAL cont_max : INTEGER := teto_int*15;
     SIGNAL IQ : INTEGER;
 BEGIN
 
-    teto_int <= to_integer(unsigned(teto));
-    cont_max <= teto_int*360000;
+    teto_int <= to_integer(unsigned(teto)) + 1;
+    cont_max <= teto_int*10;
 
     PROCESS (clock, zera_as, zera_s, conta, IQ)
     BEGIN
