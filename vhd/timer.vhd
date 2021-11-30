@@ -16,6 +16,7 @@ ENTITY timer IS
         db_dig5, db_dig4, db_dig3, db_dig2, db_dig1, db_dig0 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
         disponivel : OUT STD_LOGIC;
         salva : OUT STD_LOGIC;
+		  configurando : OUT STD_LOGIC;
         db_estado : OUT STD_LOGIC_VECTOR (6 DOWNTO 0);
         db_segundo : OUT STD_LOGIC
     );
@@ -40,7 +41,7 @@ ARCHITECTURE timer_arch OF timer IS
 
     COMPONENT timer_fd
         PORT (
-            clock, reset, conta_alimentacao, configura, atualiza : IN STD_LOGIC;
+            clock, reset, conta_alimentacao, configura, atualiza, configurando : IN STD_LOGIC;
             periodo : IN STD_LOGIC_VECTOR (3 DOWNTO 0);
             i_dig5, i_dig4, i_dig3, i_dig2 : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
             dig5, dig4, dig3, dig2, dig1, dig0 : OUT STD_LOGIC_VECTOR (3 DOWNTO 0);
@@ -119,6 +120,7 @@ BEGIN
         s_conta_alimentacao,
         s_salva_config,
         s_atualiza,
+		  s_configurando,
         periodo,
         s_i_dig5,
         s_i_dig4,
@@ -194,5 +196,6 @@ BEGIN
     salva <= s_salva;
     disponivel <= s_disponivel;
     db_segundo <= s_db_segundo;
+	 configurando <= s_configurando;
 
 END ARCHITECTURE;

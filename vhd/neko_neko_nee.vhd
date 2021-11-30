@@ -11,7 +11,7 @@ ENTITY neko_neko_nee IS
 		configura : IN STD_LOGIC;
 		mais : IN STD_LOGIC;
 		tamanho_porcao : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
-		periodo : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+		periodo : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
 		modo_display : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
 
 		trigger : OUT STD_LOGIC;
@@ -24,6 +24,7 @@ ENTITY neko_neko_nee IS
 		sseg3 : OUT STD_LOGIC_VECTOR (6 DOWNTO 0);
 		sseg4 : OUT STD_LOGIC_VECTOR (6 DOWNTO 0);
 		sseg5 : OUT STD_LOGIC_VECTOR (6 DOWNTO 0);
+		db_disponivel : OUT STD_LOGIC;
 		db_pwm : OUT STD_LOGIC;
 		db_posicao : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
 		db_tamanho_porcao : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
@@ -88,6 +89,7 @@ ARCHITECTURE neko_neko_nee_arch OF neko_neko_nee IS
 			db_dig5, db_dig4, db_dig3, db_dig2, db_dig1, db_dig0 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
 			disponivel : OUT STD_LOGIC;
 			salva : OUT STD_LOGIC;
+			configurando : OUT STD_LOGIC;
 			db_estado : OUT STD_LOGIC_VECTOR (6 DOWNTO 0);
 			db_segundo : OUT STD_LOGIC
 		);
@@ -148,11 +150,10 @@ ARCHITECTURE neko_neko_nee_arch OF neko_neko_nee IS
 	SIGNAL s_db_dig5, s_db_dig4, s_db_dig3, s_db_dig2, s_db_dig1, s_db_dig0 : STD_LOGIC_VECTOR (6 DOWNTO 0);
 	SIGNAL s_horas : STD_LOGIC_VECTOR (7 DOWNTO 0);
 	SIGNAL s_minutos : STD_LOGIC_VECTOR (7 DOWNTO 0);
-	SIGNAL s_periodo : STD_LOGIC_VECTOR (3 DOWNTO 0);
 
 	SIGNAL s_medida : STD_LOGIC_VECTOR (11 DOWNTO 0);
 	SIGNAL s_db_posicao : STD_LOGIC_VECTOR(2 DOWNTO 0);
-	SIGNAL s_aberto, s_abre, s_indisponivel, s_disponivel, s_salva : STD_LOGIC;
+	SIGNAL s_aberto, s_abre, s_reset, s_indisponivel, s_disponivel, s_salva, s_configurando : STD_LOGIC;
 
 	SIGNAL s_estado_timer : STD_LOGIC_VECTOR (6 DOWNTO 0);
 	SIGNAL s_estado_hcsr, s_estado_interface : STD_LOGIC_VECTOR (3 DOWNTO 0);
@@ -160,13 +161,12 @@ ARCHITECTURE neko_neko_nee_arch OF neko_neko_nee IS
 	SIGNAL s_estado_despensa : STD_LOGIC_VECTOR (1 DOWNTO 0);
 
 BEGIN
-	s_periodo <= '0' & periodo;
 	s_horas <= s_dig_hora_1 & s_dig_hora_0;
 	s_minutos <= s_dig_min_1 & s_dig_min_0;
 
 	CTRL_SERIAL : controle_serial PORT MAP(
 		clock => clock,
-		reset => reset,
+		reset => s_reset,
 		horas => s_horas,
 		minutos => s_minutos,
 		alimentou => s_salva,
@@ -183,7 +183,7 @@ BEGIN
 		reset => reset,
 		configura => configura,
 		alimentado => s_abre,
-		periodo => s_periodo,
+		periodo => periodo,
 		mais => mais,
 		dig5 => s_dig_hora_1,
 		dig4 => s_dig_hora_0,
@@ -199,6 +199,7 @@ BEGIN
 		db_dig0 => s_db_dig0,
 		disponivel => s_disponivel,
 		salva => s_salva,
+		configurando => s_configurando,
 		db_estado => s_estado_timer,
 		db_segundo => OPEN
 	);
@@ -207,7 +208,7 @@ BEGIN
 	PORT MAP
 	(
 		clock => clock,
-		reset => reset,
+		reset => s_reset,
 		abre => s_abre,
 		tamanho_porcao => tamanho_porcao,
 		pwm => pwm,
@@ -221,7 +222,7 @@ BEGIN
 	CTRL_HCSRO4 : controle_hcsr04
 	PORT MAP(
 		clock => clock,
-		reset => reset,
+		reset => s_reset,
 		echo => echo,
 		disponivel => s_disponivel,
 		aberto => s_aberto,
@@ -271,11 +272,13 @@ BEGIN
 		output => indisponivel
 	);
 
+	db_disponivel <= s_disponivel;
 	db_posicao <= s_db_posicao;
 	db_aberto <= s_aberto;
 	db_medida <= s_medida;
 	db_estado_uc <= s_estado_hcsr;
 	db_estado_interface <= s_estado_interface;
 	db_estado_despensa <= s_estado_despensa;
+	s_reset <= reset OR s_configurando;
 
 END ARCHITECTURE;

@@ -31,6 +31,7 @@ ARCHITECTURE timer_select_arch OF timer_select IS
             enable_dig4 : OUT STD_LOGIC;
             enable_dig3 : OUT STD_LOGIC;
             enable_dig2 : OUT STD_LOGIC;
+				configurando : OUT STD_LOGIC;
             salva_config : OUT STD_LOGIC;
             db_estado : OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
         );
@@ -74,7 +75,7 @@ ARCHITECTURE timer_select_arch OF timer_select IS
 
     SIGNAL s_contagem, s_dig5, s_dig4, s_dig3, s_dig2 : STD_LOGIC_VECTOR (3 DOWNTO 0);
     SIGNAL s_db_estado : STD_LOGIC_VECTOR (3 DOWNTO 0);
-    SIGNAL s_conta, s_configura : STD_LOGIC;
+    SIGNAL s_conta, s_configura, s_configurando : STD_LOGIC;
     SIGNAL s_enable_dig5, s_enable_dig4, s_enable_dig3, s_enable_dig2 : STD_LOGIC;
 
 BEGIN
@@ -89,6 +90,7 @@ BEGIN
         enable_dig4 => s_enable_dig4,
         enable_dig3 => s_enable_dig3,
         enable_dig2 => s_enable_dig2,
+		  configurando => s_configurando,
         salva_config => salva_config,
         db_estado => s_db_estado
     );
@@ -171,5 +173,11 @@ BEGIN
         hexa => s_db_estado,
         sseg => db_estado
     );
+	 
+	 configurando <= s_configurando;
+	 dig2 <= s_dig2;
+    dig3 <= s_dig3;
+    dig4 <= s_dig4;
+    dig5 <= s_dig5;
 
 END ARCHITECTURE;

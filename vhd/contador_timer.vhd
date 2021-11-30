@@ -63,15 +63,15 @@ BEGIN
                 END IF;
                 IF (s_dig0 = "1001") THEN
                     s_dig0 <= "0000";
-                    IF (s_dig1 = "0110") THEN
+                    IF (s_dig1 = "0101") THEN
                         s_dig1 <= "0000";
                         IF (s_dig2 = "1001") THEN
                             s_dig2 <= "0000";
-                            IF (s_dig3 = "0110") THEN
+                            IF (s_dig3 = "0101") THEN
                                 s_dig3 <= "0000";
                                 IF (s_dig4 = "1001") THEN
                                     s_dig4 <= "0000";
-                                    IF (s_dig5 = "0011") THEN
+                                    IF (s_dig5 = "0010") THEN
                                         s_dig5 <= "0000";
                                     ELSE
                                         s_dig5 <= s_dig5 + 1;

@@ -88,7 +88,7 @@ ARCHITECTURE controle_display_arch OF controle_display IS
         );
     END COMPONENT;
 
-    SIGNAL SSEG_OFF : STD_LOGIC_VECTOR(6 DOWNTO 0) := "0000000";
+    SIGNAL SSEG_OFF : STD_LOGIC_VECTOR(6 DOWNTO 0) := "1111111";
 
     SIGNAL s_medida_2,
     s_medida_1,
@@ -179,11 +179,11 @@ BEGIN
 
         SEL => modo_display,
 
-        MUX0_OUT => SSEG0,
-        MUX1_OUT => SSEG1,
-        MUX2_OUT => SSEG2,
-        MUX3_OUT => SSEG3,
-        MUX4_OUT => SSEG4,
-        MUX5_OUT => SSEG5
+        MUX0_OUT => SSEG5,
+        MUX1_OUT => SSEG4,
+        MUX2_OUT => SSEG3,
+        MUX3_OUT => SSEG2,
+        MUX4_OUT => SSEG1,
+        MUX5_OUT => SSEG0
     );
 END ARCHITECTURE;

@@ -5,7 +5,7 @@ USE IEEE.math_real.ALL;
 
 ENTITY timer_fd IS
     PORT (
-        clock, reset, conta_alimentacao, configura, atualiza : IN STD_LOGIC;
+        clock, reset, conta_alimentacao, configura, atualiza, configurando : IN STD_LOGIC;
         periodo : IN STD_LOGIC_VECTOR (3 DOWNTO 0);
         i_dig5, i_dig4, i_dig3, i_dig2 : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
         dig5, dig4, dig3, dig2, dig1, dig0 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -41,7 +41,7 @@ ARCHITECTURE arch OF timer_fd IS
     COMPONENT divisor_timer
         PORT (
             clock, zera_as, zera_s, conta : IN STD_LOGIC;
-            Q : OUT STD_LOGIC_VECTOR (NATURAL(ceil(log2(real(100)))) - 1 DOWNTO 0);
+            Q : OUT STD_LOGIC_VECTOR (NATURAL(ceil(log2(real(50000000)))) - 1 DOWNTO 0);
             fim, meio : OUT STD_LOGIC
         );
     END COMPONENT;
@@ -54,7 +54,7 @@ ARCHITECTURE arch OF timer_fd IS
         );
     END COMPONENT;
 
-    SIGNAL s_conta_alimentacao, s_fim_periodo, s_segundo, s_configura, s_reg_periodo, s_reg_atualiza : STD_LOGIC;
+    SIGNAL s_conta_alimentacao, s_fim_periodo, s_segundo, s_configura, s_reg_periodo, s_reg_atualiza, s_configurando, s_conta_relogio : STD_LOGIC;
     SIGNAL s_dig5, s_dig4, s_dig3, s_dig2, s_dig1, s_dig0 : STD_LOGIC_VECTOR(3 DOWNTO 0);
     SIGNAL s_periodo, s_horario : STD_LOGIC_VECTOR(3 DOWNTO 0);
     SIGNAL s_distancia : STD_LOGIC_VECTOR(11 DOWNTO 0);
@@ -65,7 +65,7 @@ BEGIN
     PORT MAP(
         clock,
         reset,
-        '0',
+        atualiza,
         s_conta_alimentacao,
         s_horario,
         s_fim_periodo
@@ -96,7 +96,7 @@ BEGIN
     PORT MAP(
         clock,
         reset,
-        s_segundo,
+        s_conta_relogio,
         s_configura,
         i_dig5,
         i_dig4,
@@ -121,8 +121,10 @@ BEGIN
     s_configura <= configura;
     s_reg_atualiza <= atualiza;
     s_periodo <= periodo;
-    s_conta_alimentacao <= conta_alimentacao;
     s_reg_periodo <= s_reg_atualiza OR s_configura;
     db_segundo <= s_segundo;
+	 s_configurando <= NOT(configurando);
+	 s_conta_relogio <= s_segundo AND s_configurando;
+	 s_conta_alimentacao <= conta_alimentacao and s_conta_relogio;
 
 END ARCHITECTURE;

@@ -42,11 +42,11 @@ BEGIN
     BEGIN
         CASE Eatual IS
             WHEN inicial =>
-                IF alimentou = '1' THEN
-                    s_ocorreu_alimentacao <= "01000001"; -- Caractere A
-                    Eprox <= preparacao;
-                ELSIF n_alimentou = '1' THEN
+                IF n_alimentou = '1' THEN
                     s_ocorreu_alimentacao <= "01001110"; -- Caractere N
+                    Eprox <= preparacao;
+                ELSIF alimentou = '1' THEN
+						  s_ocorreu_alimentacao <= "01000001"; -- Caractere A
                     Eprox <= preparacao;
                 ELSE
                     Eprox <= inicial;
@@ -66,11 +66,11 @@ BEGIN
             WHEN fim_transmite => Eprox <= transmite;
 
             WHEN fim_total =>
-                IF alimentou = '1' THEN
-                    s_ocorreu_alimentacao <= "01000001"; -- Caractere A
-                    Eprox <= preparacao;
-                ELSIF n_alimentou = '1' THEN
+                IF n_alimentou = '1' THEN
                     s_ocorreu_alimentacao <= "01001110"; -- Caractere N
+                    Eprox <= preparacao;
+                ELSIF alimentou = '1' THEN
+						  s_ocorreu_alimentacao <= "01000001"; -- Caractere A
                     Eprox <= preparacao;
                 ELSE
                     Eprox <= fim_total;

@@ -68,7 +68,7 @@ BEGIN
                     configura = '1' AND
                     (
                     (
-                    unsigned(dig5) = 2 AND unsigned(contagem) < 5
+                    unsigned(dig5) = 2 AND unsigned(contagem) < 4
                     )
                     OR (
                     unsigned(dig5) < 2
@@ -81,7 +81,7 @@ BEGIN
                 END IF;
 
             WHEN set_dig3 =>
-                IF (configura = '1' AND unsigned(contagem) < 7) THEN
+                IF (configura = '1' AND unsigned(contagem) < 6) THEN
                     Eprox <= set_dig2;
                 ELSE
                     Eprox <= set_dig3;
