@@ -10,6 +10,7 @@ ENTITY neko_neko_nee IS
 		echo : IN STD_LOGIC;
 		configura : IN STD_LOGIC;
 		mais : IN STD_LOGIC;
+		override : IN STD_LOGIC;
 		tamanho_porcao : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
 		periodo : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
 		modo_display : IN STD_LOGIC_VECTOR (1 DOWNTO 0);
@@ -45,6 +46,7 @@ ARCHITECTURE neko_neko_nee_arch OF neko_neko_nee IS
 			echo : IN STD_LOGIC;
 			disponivel : IN STD_LOGIC;
 			aberto : IN STD_LOGIC;
+			override : IN STD_LOGIC;
 			trigger : OUT STD_LOGIC;
 			indisponivel : OUT STD_LOGIC;
 			abre : OUT STD_LOGIC;
@@ -226,6 +228,7 @@ BEGIN
 		echo => echo,
 		disponivel => s_disponivel,
 		aberto => s_aberto,
+		override => override,
 		trigger => trigger,
 		indisponivel => s_indisponivel,
 		abre => s_abre,

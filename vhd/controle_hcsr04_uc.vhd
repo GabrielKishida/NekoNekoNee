@@ -12,6 +12,7 @@ ENTITY controle_hcsr04_uc IS
 		disponivel : IN STD_LOGIC;
 		pronto : IN STD_LOGIC;
 		aberto : IN STD_LOGIC;
+		override : IN STD_LOGIC;
 		zera_stand : OUT STD_LOGIC;
 		zera_confirma : OUT STD_LOGIC;
 		conta_stand : OUT STD_LOGIC;
@@ -54,7 +55,7 @@ BEGIN
 	END PROCESS;
 
 	-- logica de proximo estado
-	PROCESS (clock, fim_stand, confirma, objeto, pronto, disponivel, aberto, Eatual)
+	PROCESS (clock, fim_stand, confirma, objeto, pronto, disponivel, aberto, override, Eatual)
 	BEGIN
 		CASE Eatual IS
 
@@ -65,6 +66,8 @@ BEGIN
 			WHEN standby =>
 				IF (fim_stand = '1') THEN
 					Eprox <= checa_objeto;
+				ELSIF (override = '1') THEN
+					Eprox <= checa_disponivel;
 				ELSE
 					Eprox <= standby;
 				END IF;
@@ -127,7 +130,7 @@ BEGIN
 	-- logica de saida (Moore)
 
 	WITH Eatual SELECT
-	zera_stand <= '1' WHEN checa_objeto, '0' WHEN OTHERS;
+	zera_stand <= '1' WHEN checa_objeto | checa_disponivel, '0' WHEN OTHERS;
 
 	WITH Eatual SELECT
 	conta_stand <= '1' WHEN standby, '0' WHEN OTHERS;
