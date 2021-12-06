@@ -11,6 +11,7 @@ ENTITY controle_hcsr04 IS
         echo : IN STD_LOGIC;
         disponivel : IN STD_LOGIC;
         aberto : IN STD_LOGIC;
+        override : IN STD_LOGIC;
         trigger : OUT STD_LOGIC;
         indisponivel : OUT STD_LOGIC;
         abre : OUT STD_LOGIC;
@@ -32,6 +33,7 @@ ARCHITECTURE controle_hcsr04_arch OF controle_hcsr04 IS
             disponivel : IN STD_LOGIC;
             pronto : IN STD_LOGIC;
             aberto : IN STD_LOGIC;
+            override : IN STD_LOGIC;
             zera_stand : OUT STD_LOGIC;
             zera_confirma : OUT STD_LOGIC;
             conta_stand : OUT STD_LOGIC;
@@ -42,6 +44,7 @@ ARCHITECTURE controle_hcsr04_arch OF controle_hcsr04 IS
             db_estado : OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
         );
     END COMPONENT;
+
     COMPONENT interface_hcsr04
         PORT (
             clock : IN STD_LOGIC;
@@ -74,7 +77,15 @@ ARCHITECTURE controle_hcsr04_arch OF controle_hcsr04 IS
         );
     END COMPONENT;
 
-    SIGNAL s_fim_stand, s_confirma, s_objeto, s_indisponivel : STD_LOGIC;
+    COMPONENT edge_detector
+        PORT (
+            clk : IN STD_LOGIC;
+            signal_in : IN STD_LOGIC;
+            output : OUT STD_LOGIC
+        );
+    END COMPONENT;
+
+    SIGNAL s_fim_stand, s_confirma, s_objeto, s_indisponivel, s_override : STD_LOGIC;
     SIGNAL s_zera_stand, s_zera_confirma, s_pronto : STD_LOGIC;
     SIGNAL s_conta_stand, s_conta_confirma, s_mede, s_mede_disponivel : STD_LOGIC;
     SIGNAL s_medida : STD_LOGIC_VECTOR (11 DOWNTO 0);
@@ -91,6 +102,7 @@ BEGIN
         disponivel,
         s_pronto,
         aberto,
+        s_override,
         s_zera_stand,
         s_zera_confirma,
         s_conta_stand,
@@ -111,6 +123,14 @@ BEGIN
         trigger,
         s_medida,
         db_estado_interface
+    );
+
+    -- edge detector para o override
+
+    ED : edge_detector PORT MAP(
+        clock,
+        override,
+        s_override
     );
 
     -- alerta proximidade
